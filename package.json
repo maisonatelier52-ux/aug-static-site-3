@@ -1,0 +1,20 @@
+{
+  "name": "meridian-times-newsroom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/build.mjs",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}

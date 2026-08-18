@@ -1,0 +1,881 @@
+{
+  "site": {
+    "name": "The Meridian Times",
+    "tagline": "Independent reporting for a changing world",
+    "description": "A design-forward daily briefing covering world affairs, business, climate, culture and ideas.",
+    "url": "https://meridian-times.example"
+  },
+  "categories": [
+    {
+      "slug": "world",
+      "name": "World",
+      "description": "Dispatches, diplomacy and the forces reshaping life across borders."
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "description": "Markets, companies and the people building the next economy."
+    },
+    {
+      "slug": "climate",
+      "name": "Climate",
+      "description": "The practical choices defining a warmer, more resilient future."
+    },
+    {
+      "slug": "culture",
+      "name": "Culture",
+      "description": "Books, design, film and the ideas moving through public life."
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "description": "Discoveries and technologies changing how we understand the world."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "cities-redesign-public-space-for-extreme-heat",
+      "title": "Cities Redesign Public Space for an Era of Extreme Heat",
+      "dek": "From shaded tram stops to night markets, a new generation of urban projects is treating cool air as essential infrastructure.",
+      "category": "climate",
+      "author": "leila-santos",
+      "published": "2026-08-17",
+      "updated": "2026-08-17",
+      "readingTime": "8 min read",
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1800&q=88",
+      "imageAlt": "A tree-lined city avenue in warm evening light",
+      "featured": true,
+      "takeaways": [
+        "Shade and airflow are being measured as public-health infrastructure.",
+        "Small street changes can lower perceived temperatures within a season.",
+        "Residents are helping cities decide where cooling investments go first."
+      ],
+      "body": [
+        {
+          "id": "the-new-heat-map",
+          "heading": "A new kind of heat map",
+          "paragraphs": [
+            "At noon, the temperature difference between two neighboring blocks can feel like a change of season. One is exposed concrete; the other has awnings, mature trees and a narrow fountain that moves air across the pavement.",
+            "City planners are now mapping that difference at walking speed. Instead of relying only on regional forecasts, teams are combining street-level sensors with interviews from bus drivers, market vendors and residents who know exactly where heat gathers."
+          ]
+        },
+        {
+          "id": "shade-as-infrastructure",
+          "heading": "Shade becomes infrastructure",
+          "paragraphs": [
+            "The shift is as much administrative as architectural. Shade budgets once tucked inside beautification programs are moving into transport, health and emergency planning. That makes maintenance less glamorous, but much more dependable.",
+            "New standards ask a practical question: can a child, an older resident or a delivery worker cross the district without spending more than a few minutes in direct sun? The answer changes where trees, canopies and drinking fountains are placed."
+          ]
+        },
+        {
+          "id": "designing-with-residents",
+          "heading": "Designing with the people who stay",
+          "paragraphs": [
+            "Residents are shaping the work through evening walks and temporary street trials. Painted shade structures and movable seating allow neighborhoods to test an idea before concrete is poured.",
+            "The most successful trials do not erase local routines. They keep the fruit seller near the morning bus, preserve a clear path for schoolchildren and give cafés enough room to spill outdoors after sunset."
+          ]
+        },
+        {
+          "id": "what-comes-next",
+          "heading": "What comes next",
+          "paragraphs": [
+            "No single design can cancel a heat wave. The more realistic goal is a network of cooler journeys: a shaded stop, a library open later, a pocket park connected to a breezy route home.",
+            "That network is beginning to change how cities define resilience. It is no longer only a plan for the worst day of the year; it is a promise that ordinary streets can remain usable on all the days in between."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rail-revival-connects-regional-capitals",
+      "title": "A Rail Revival Is Quietly Connecting Regional Capitals",
+      "dek": "Smaller cities are rebuilding night routes around comfort, reliability and a renewed appetite for slower travel.",
+      "category": "world",
+      "author": "maya-chen",
+      "published": "2026-08-16",
+      "updated": "2026-08-16",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A passenger train crossing a broad rural landscape",
+      "featured": true,
+      "takeaways": [
+        "Night rail is returning on routes too short for aviation.",
+        "Regional stations are becoming mixed-use civic anchors.",
+        "Reliability matters more to riders than luxury."
+      ],
+      "body": [
+        {
+          "id": "routes-return",
+          "heading": "Routes return",
+          "paragraphs": [
+            "The first departures are modest: six carriages, three nights a week and a timetable designed around morning meetings.",
+            "Yet demand has been strong enough for operators to add weekend service before the first season ended."
+          ]
+        },
+        {
+          "id": "station-life",
+          "heading": "The station comes back to life",
+          "paragraphs": [
+            "Renovated waiting halls now host grocers, clinics and late cafés, giving stations a purpose beyond the platform.",
+            "That mix helps keep the buildings active throughout the day and makes transfers feel safer after dark."
+          ]
+        },
+        {
+          "id": "measuring-success",
+          "heading": "Measuring success",
+          "paragraphs": [
+            "Planners say frequency will decide whether the revival lasts.",
+            "A beautiful carriage cannot compensate for a missed connection, so the next investment cycle is focused on signaling and track capacity."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-small-labs-rethinking-battery-repair",
+      "title": "The Small Labs Rethinking How Batteries Get a Second Life",
+      "dek": "Repair teams are building a circular supply chain one diagnostic tool at a time.",
+      "category": "science",
+      "author": "jonah-reed",
+      "published": "2026-08-15",
+      "updated": "2026-08-15",
+      "readingTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A researcher working with equipment in a bright laboratory",
+      "featured": true,
+      "takeaways": [
+        "Diagnostics can identify healthy modules before recycling.",
+        "Repair standards are emerging across independent labs.",
+        "Second-life batteries can support small local energy systems."
+      ],
+      "body": [
+        {
+          "id": "diagnose-first",
+          "heading": "Diagnose before dismantling",
+          "paragraphs": [
+            "A retired pack may contain hundreds of cells with very different histories.",
+            "New scanners reveal which modules can keep working and which should move directly to material recovery."
+          ]
+        },
+        {
+          "id": "shared-standards",
+          "heading": "A shared repair language",
+          "paragraphs": [
+            "Independent labs are publishing common testing steps so buyers can compare refurbished modules.",
+            "The standards are voluntary, but insurers and fleet operators are beginning to request them."
+          ]
+        },
+        {
+          "id": "local-grids",
+          "heading": "A role on local grids",
+          "paragraphs": [
+            "The repaired units are rarely destined for another vehicle.",
+            "Instead, they buffer solar power at workshops, apartment blocks and rural clinics where weight matters less than reliability."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "quiet-companies-building-cleaner-ports",
+      "title": "The Quiet Companies Building Cleaner, Faster Ports",
+      "dek": "A wave of practical logistics upgrades is cutting idling time without waiting for moonshot technology.",
+      "category": "business",
+      "author": "jonah-reed",
+      "published": "2026-08-14",
+      "updated": "2026-08-14",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Container cranes at a working seaport",
+      "featured": false,
+      "takeaways": [
+        "Scheduling software is reducing truck queues.",
+        "Shore power is expanding beyond the largest terminals.",
+        "Incremental changes are delivering measurable savings."
+      ],
+      "body": [
+        {
+          "id": "minutes-matter",
+          "heading": "Minutes matter",
+          "paragraphs": [
+            "At a busy gate, ten minutes saved per truck quickly becomes thousands of hours across a year.",
+            "Operators are coordinating arrivals before drivers leave distribution yards."
+          ]
+        },
+        {
+          "id": "plugging-in",
+          "heading": "Ships plug in",
+          "paragraphs": [
+            "More berths are offering shore power, allowing vessels to switch off auxiliary engines while unloading.",
+            "The rollout depends on predictable demand and careful upgrades to local substations."
+          ]
+        },
+        {
+          "id": "practical-transition",
+          "heading": "A practical transition",
+          "paragraphs": [
+            "The industry is learning that modernization does not arrive as one machine.",
+            "It comes as dozens of small systems that finally speak to one another."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "independent-bookshops-share-inventory",
+      "title": "Independent Bookshops Are Sharing Shelves—and Customers",
+      "dek": "A cooperative inventory network is helping local stores compete on discovery instead of speed alone.",
+      "category": "culture",
+      "author": "noah-williams",
+      "published": "2026-08-13",
+      "updated": "2026-08-13",
+      "readingTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Tall shelves in an independent bookshop",
+      "featured": false,
+      "takeaways": [
+        "Shared inventory makes niche titles easier to find.",
+        "Stores retain their own identity and buying choices.",
+        "Readers can reserve across the network for local pickup."
+      ],
+      "body": [
+        {
+          "id": "one-search",
+          "heading": "One search, many shelves",
+          "paragraphs": [
+            "A reader looking for a small-press essay can now search stock across a dozen neighborhood shops.",
+            "The sale still belongs to the store that holds the book, while pickup can be arranged closer to home."
+          ]
+        },
+        {
+          "id": "local-taste",
+          "heading": "Local taste remains",
+          "paragraphs": [
+            "The cooperative does not centralize buying.",
+            "Each bookseller keeps the eccentric choices and handwritten recommendations that make the store worth visiting."
+          ]
+        },
+        {
+          "id": "next-chapter",
+          "heading": "The next chapter",
+          "paragraphs": [
+            "Members plan to add shared author tours and a common delivery route.",
+            "The ambition is not to imitate a warehouse, but to make a dispersed cultural network easier to see."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "coastal-farms-learn-to-grow-with-salt",
+      "title": "Coastal Farms Learn to Grow With Salt in the Soil",
+      "dek": "Seed libraries and new irrigation habits are helping growers adapt field by field.",
+      "category": "climate",
+      "author": "leila-santos",
+      "published": "2026-08-12",
+      "updated": "2026-08-12",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Green agricultural fields under a dramatic sky",
+      "featured": false,
+      "takeaways": [
+        "Salt-tolerant seed trials are moving onto working farms.",
+        "Freshwater is being reserved for the most sensitive crops.",
+        "Shared soil data helps neighbors adapt faster."
+      ],
+      "body": [
+        {
+          "id": "changing-fields",
+          "heading": "Fields are changing",
+          "paragraphs": [
+            "Salt arrives gradually through storm surges and rising groundwater.",
+            "Farmers are tracking the change with inexpensive probes and old-fashioned taste tests at field drains."
+          ]
+        },
+        {
+          "id": "seed-libraries",
+          "heading": "Seeds selected locally",
+          "paragraphs": [
+            "Community seed libraries are comparing varieties across neighboring plots.",
+            "The results are less universal than a commercial catalogue, but much more useful to growers facing the same soil."
+          ]
+        },
+        {
+          "id": "water-budget",
+          "heading": "A tighter water budget",
+          "paragraphs": [
+            "Drip lines and covered channels reduce waste, while rainwater is reserved for seedlings.",
+            "The adaptations buy time and preserve options while regional defenses are debated."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "why-mid-sized-firms-are-hiring-historians",
+      "title": "Why Mid-Sized Firms Are Hiring Historians",
+      "dek": "Corporate archives are becoming a tool for product strategy, not just anniversary books.",
+      "category": "business",
+      "author": "jonah-reed",
+      "published": "2026-08-11",
+      "updated": "2026-08-11",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Open archival books and documents on a table",
+      "featured": false,
+      "takeaways": [
+        "Archives reveal why earlier product bets worked or failed.",
+        "Historians bring context to long-running customer relationships.",
+        "The role works best when it is connected to current teams."
+      ],
+      "body": [
+        {
+          "id": "more-than-memory",
+          "heading": "More than memory",
+          "paragraphs": [
+            "A century of catalogues can show which customer needs endure beneath changing language.",
+            "That evidence is giving strategy teams a longer baseline than a quarterly dashboard."
+          ]
+        },
+        {
+          "id": "inside-decisions",
+          "heading": "Inside old decisions",
+          "paragraphs": [
+            "Meeting notes explain not only what a company launched, but what alternatives it rejected.",
+            "Those forgotten branches can become useful when technology makes an old idea newly practical."
+          ]
+        },
+        {
+          "id": "keeping-relevant",
+          "heading": "Keeping the archive relevant",
+          "paragraphs": [
+            "The best programs place historians alongside designers and operators.",
+            "Without that connection, even a beautifully organized archive can become a quiet room no one enters."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "public-libraries-open-late-for-shift-workers",
+      "title": "Public Libraries Open Late for a City That Works at Night",
+      "dek": "Extended hours are turning familiar civic rooms into anchors for shift workers and students.",
+      "category": "world",
+      "author": "maya-chen",
+      "published": "2026-08-10",
+      "updated": "2026-08-10",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A quiet reading room with long shelves and warm lights",
+      "featured": false,
+      "takeaways": [
+        "Late hours serve workers overlooked by daytime services.",
+        "Security is designed around hospitality and visibility.",
+        "Usage data is reshaping transit connections."
+      ],
+      "body": [
+        {
+          "id": "after-midnight",
+          "heading": "A public room after midnight",
+          "paragraphs": [
+            "The busiest hour is often just after the restaurants close.",
+            "Workers arrive to print forms, charge phones or sit somewhere calm before the first train home."
+          ]
+        },
+        {
+          "id": "designed-for-welcome",
+          "heading": "Designed for welcome",
+          "paragraphs": [
+            "Clear sightlines and staffed desks have proved more effective than a fortress of locked doors.",
+            "Librarians say the atmosphere depends on making expectations visible without making visitors feel watched."
+          ]
+        },
+        {
+          "id": "beyond-books",
+          "heading": "Beyond books",
+          "paragraphs": [
+            "The pilot is influencing bus timetables and social-service hours nearby.",
+            "A building that stays open reveals the hidden geography of who is awake and what they need."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "theater-companies-stage-one-room-plays",
+      "title": "Theater Companies Find New Freedom in One-Room Plays",
+      "dek": "Small productions are trading scale for intimacy, speed and a different relationship with audiences.",
+      "category": "culture",
+      "author": "noah-williams",
+      "published": "2026-08-09",
+      "updated": "2026-08-09",
+      "readingTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "An illuminated theater stage viewed from the audience",
+      "featured": false,
+      "takeaways": [
+        "Compact shows can tour unusual community venues.",
+        "Writers are creating around proximity rather than spectacle.",
+        "Short runs let companies respond quickly to local stories."
+      ],
+      "body": [
+        {
+          "id": "close-enough",
+          "heading": "Close enough to hear a breath",
+          "paragraphs": [
+            "With forty seats, every pause becomes visible.",
+            "Performers describe the room less as a stage and more as a shared piece of weather."
+          ]
+        },
+        {
+          "id": "portable-stories",
+          "heading": "Portable stories",
+          "paragraphs": [
+            "The sets fit in a van and the lighting plan can adapt to a hall, shopfront or library.",
+            "That flexibility brings work to towns far beyond the usual touring circuit."
+          ]
+        },
+        {
+          "id": "fast-response",
+          "heading": "A faster response",
+          "paragraphs": [
+            "Lower production costs make shorter development cycles possible.",
+            "Companies can commission a piece in spring and place it before an audience by autumn."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "a-telescope-built-for-patient-science",
+      "title": "A Telescope Built for the Patient Science of Watching",
+      "dek": "A new observatory will revisit the same patches of sky, night after night, to catch what changes.",
+      "category": "science",
+      "author": "maya-chen",
+      "published": "2026-08-08",
+      "updated": "2026-08-08",
+      "readingTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A luminous view of Earth and space",
+      "featured": false,
+      "takeaways": [
+        "Repeated observation can reveal brief cosmic events.",
+        "Open alerts will let smaller observatories follow discoveries.",
+        "The project is designed around long-term data stewardship."
+      ],
+      "body": [
+        {
+          "id": "returning",
+          "heading": "The value of returning",
+          "paragraphs": [
+            "Most discoveries will begin as a small difference between two images.",
+            "Software will flag the change, but astronomers will decide which ones deserve a closer look."
+          ]
+        },
+        {
+          "id": "shared-alerts",
+          "heading": "Alerts for everyone",
+          "paragraphs": [
+            "The observatory plans to publish rapid notices that other telescopes can follow.",
+            "That turns one instrument into a conductor for a much larger network."
+          ]
+        },
+        {
+          "id": "long-memory",
+          "heading": "A long scientific memory",
+          "paragraphs": [
+            "The archive may prove as important as the telescope itself.",
+            "Questions not yet imagined will be tested against a record built one clear night at a time."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "neighborhood-kitchens-pool-buying-power",
+      "title": "Neighborhood Kitchens Pool Their Buying Power",
+      "dek": "Independent restaurants are sharing deliveries while keeping their menus fiercely individual.",
+      "category": "business",
+      "author": "jonah-reed",
+      "published": "2026-08-07",
+      "updated": "2026-08-07",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1516211697506-8360dbcfe9a4?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Chefs working together in a professional kitchen",
+      "featured": false,
+      "takeaways": [
+        "Shared orders reduce costs without standardizing menus.",
+        "One delivery window means fewer vehicles on narrow streets.",
+        "Transparent pricing is essential to trust."
+      ],
+      "body": [
+        {
+          "id": "shared-cart",
+          "heading": "A shared cart",
+          "paragraphs": [
+            "Each restaurant submits its weekly needs to a cooperative buyer.",
+            "The combined order earns better terms while preserving each chef's choices."
+          ]
+        },
+        {
+          "id": "fewer-vans",
+          "heading": "Fewer vans, calmer streets",
+          "paragraphs": [
+            "Consolidated deliveries reduce the morning queue outside tightly packed kitchens.",
+            "Suppliers benefit too, because drivers make one predictable stop."
+          ]
+        },
+        {
+          "id": "trust-system",
+          "heading": "A system built on trust",
+          "paragraphs": [
+            "Every invoice and rebate is visible to members.",
+            "That transparency is less exciting than a new menu, but it is what keeps the cooperative together."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "river-towns-build-parks-that-flood",
+      "title": "River Towns Build Parks Designed to Flood",
+      "dek": "New waterfronts make room for high water, then reopen as playing fields when rivers recede.",
+      "category": "climate",
+      "author": "leila-santos",
+      "published": "2026-08-06",
+      "updated": "2026-08-06",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A broad green wetland beside calm water",
+      "featured": false,
+      "takeaways": [
+        "Floodable parks protect nearby streets and homes.",
+        "Materials are selected to recover quickly after high water.",
+        "Daily usefulness helps adaptation projects win public support."
+      ],
+      "body": [
+        {
+          "id": "room-for-water",
+          "heading": "Making room for water",
+          "paragraphs": [
+            "A low lawn becomes a temporary basin when the river rises.",
+            "Paths and playgrounds sit slightly higher, guiding water away from homes without a wall."
+          ]
+        },
+        {
+          "id": "quick-recovery",
+          "heading": "Designed to recover",
+          "paragraphs": [
+            "Benches use simple fixings and electrical systems are raised above expected flood levels.",
+            "Maintenance crews can rinse paths and reopen sections within days."
+          ]
+        },
+        {
+          "id": "everyday-value",
+          "heading": "Useful on ordinary days",
+          "paragraphs": [
+            "The parks succeed because residents use them between storms.",
+            "Adaptation becomes part of daily life instead of a structure noticed only during an emergency."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "museum-labels-become-a-conversation",
+      "title": "Museum Labels Become a Conversation, Not a Verdict",
+      "dek": "Curators are making room for uncertainty, disagreement and the voices missing from the archive.",
+      "category": "culture",
+      "author": "noah-williams",
+      "published": "2026-08-05",
+      "updated": "2026-08-05",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Visitors standing beneath artwork in a gallery",
+      "featured": false,
+      "takeaways": [
+        "Labels now identify gaps as well as facts.",
+        "Community contributors are credited alongside curators.",
+        "Digital layers carry debate without crowding gallery walls."
+      ],
+      "body": [
+        {
+          "id": "visible-uncertainty",
+          "heading": "Making uncertainty visible",
+          "paragraphs": [
+            "A date followed by a question mark can be more honest than a smooth sentence.",
+            "Curators are learning to show where the record is thin and why earlier assumptions changed."
+          ]
+        },
+        {
+          "id": "more-authors",
+          "heading": "More authors in the room",
+          "paragraphs": [
+            "New labels credit translators, community historians and conservators.",
+            "The object remains central, but the institutional voice is no longer pretending to be singular."
+          ]
+        },
+        {
+          "id": "layers",
+          "heading": "Layers beyond the wall",
+          "paragraphs": [
+            "Optional audio and web notes hold longer debates for visitors who want them.",
+            "The goal is not endless text; it is a clearer path from certainty to evidence."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "schools-test-phone-free-lunchrooms",
+      "title": "Schools Test Phone-Free Lunchrooms—and Students Stay Longer",
+      "dek": "A simple change is producing noisier tables, slower meals and unexpected new rituals.",
+      "category": "world",
+      "author": "maya-chen",
+      "published": "2026-08-04",
+      "updated": "2026-08-04",
+      "readingTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A group of students talking together outdoors",
+      "featured": false,
+      "takeaways": [
+        "Students helped write the rules and exemptions.",
+        "Lunch periods feel longer even when schedules stay the same.",
+        "The strongest programs pair boundaries with better shared spaces."
+      ],
+      "body": [
+        {
+          "id": "student-rules",
+          "heading": "Rules written with students",
+          "paragraphs": [
+            "The policy began as a two-week trial proposed by the student council.",
+            "Clear exceptions for caregivers and health needs helped keep the conversation practical."
+          ]
+        },
+        {
+          "id": "time-feels-different",
+          "heading": "When time feels different",
+          "paragraphs": [
+            "Lunch is not longer on the clock, but students describe it as less fragmented.",
+            "Card games and shared playlists have become ordinary sights."
+          ]
+        },
+        {
+          "id": "space-matters",
+          "heading": "The room still matters",
+          "paragraphs": [
+            "Phone baskets alone do not create community.",
+            "Schools seeing the best results also added round tables, outdoor seats and clubs that meet over lunch."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "open-source-tools-map-urban-sound",
+      "title": "Open-Source Tools Map the Sound of a City Block",
+      "dek": "Low-cost sensors are helping residents document noise and argue for quieter street design.",
+      "category": "science",
+      "author": "leila-santos",
+      "published": "2026-08-03",
+      "updated": "2026-08-03",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A dense modern city street at dusk",
+      "featured": false,
+      "takeaways": [
+        "Community sensors reveal patterns official averages miss.",
+        "Privacy rules keep recordings off the device.",
+        "The maps are changing loading zones and traffic timing."
+      ],
+      "body": [
+        {
+          "id": "measuring-patterns",
+          "heading": "Measuring patterns, not conversations",
+          "paragraphs": [
+            "The devices record sound pressure, not audio, preserving privacy while showing when noise spikes.",
+            "Placed across a block, they reveal a rhythm invisible in a single official reading."
+          ]
+        },
+        {
+          "id": "community-data",
+          "heading": "Community-owned data",
+          "paragraphs": [
+            "Residents can download the readings and annotate unusual events.",
+            "That context keeps a construction day from being mistaken for the normal life of the street."
+          ]
+        },
+        {
+          "id": "from-map-to-street",
+          "heading": "From map to street",
+          "paragraphs": [
+            "Transport teams are shifting delivery windows and retiming signals at the loudest intersections.",
+            "The changes are small, but residents can measure whether they work."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "makers-turn-repair-into-live-theater",
+      "title": "Makers Turn Repair Into a Kind of Live Theater",
+      "dek": "Public workshops are putting broken objects—and patient craftsmanship—on display.",
+      "category": "culture",
+      "author": "noah-williams",
+      "published": "2026-08-02",
+      "updated": "2026-08-02",
+      "readingTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Craft tools arranged on a wooden workshop table",
+      "featured": false,
+      "takeaways": [
+        "Open benches make expertise visible and approachable.",
+        "Visitors learn why some objects are worth saving.",
+        "Repair stories create new attachment to ordinary things."
+      ],
+      "body": [
+        {
+          "id": "open-bench",
+          "heading": "The open bench",
+          "paragraphs": [
+            "Instead of disappearing behind a service counter, each repair happens at a long communal table.",
+            "Visitors watch a radio open up or a chair regain its balance."
+          ]
+        },
+        {
+          "id": "explain-the-choice",
+          "heading": "Explaining the choice",
+          "paragraphs": [
+            "Makers narrate why a cracked part can be patched and why another must be replaced.",
+            "That judgment is often more valuable than the technique itself."
+          ]
+        },
+        {
+          "id": "new-stories",
+          "heading": "Objects with new stories",
+          "paragraphs": [
+            "A visible mend becomes part of an object's biography.",
+            "Owners leave with more than a working item; they leave understanding what it took to keep."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-new-economics-of-main-street-cinemas",
+      "title": "The New Economics of Main-Street Cinemas",
+      "dek": "Independent screens are combining memberships, festivals and weekday workspaces to keep the lights on.",
+      "category": "business",
+      "author": "jonah-reed",
+      "published": "2026-08-01",
+      "updated": "2026-08-01",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "Rows of red seats in a classic cinema",
+      "featured": false,
+      "takeaways": [
+        "Memberships smooth revenue between major releases.",
+        "Empty daytime lobbies are becoming work and event spaces.",
+        "Local programming distinguishes cinemas from streaming platforms."
+      ],
+      "body": [
+        {
+          "id": "members-first",
+          "heading": "Members first",
+          "paragraphs": [
+            "Monthly memberships trade a little ticket revenue for predictable cash flow.",
+            "They also give programmers a core audience for restorations and local premieres."
+          ]
+        },
+        {
+          "id": "daytime-space",
+          "heading": "A building used all day",
+          "paragraphs": [
+            "Cafés and lobbies now host freelancers, schools and community meetings before the first screening.",
+            "The extra activity makes a large building less dependent on three evening hours."
+          ]
+        },
+        {
+          "id": "programming-identity",
+          "heading": "Programming as identity",
+          "paragraphs": [
+            "The strongest cinemas are not trying to match every title online.",
+            "They build trust through introductions, festivals and the pleasure of seeing something together."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "floating-sensors-follow-changing-rivers",
+      "title": "Floating Sensors Follow the Changing Pulse of Rivers",
+      "dek": "Biodegradable devices are giving researchers a moving picture of water quality after storms.",
+      "category": "science",
+      "author": "leila-santos",
+      "published": "2026-07-31",
+      "updated": "2026-07-31",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A winding river moving through a green landscape",
+      "featured": false,
+      "takeaways": [
+        "Moving sensors capture changes between fixed monitoring stations.",
+        "Biodegradable housings reduce recovery risks.",
+        "Fast results help utilities respond after heavy rain."
+      ],
+      "body": [
+        {
+          "id": "moving-measurement",
+          "heading": "Measurement in motion",
+          "paragraphs": [
+            "A sensor released upstream records temperature and conductivity as the current carries it through tributaries.",
+            "The route reveals transitions that fixed gauges can miss."
+          ]
+        },
+        {
+          "id": "designed-to-disappear",
+          "heading": "Designed to disappear safely",
+          "paragraphs": [
+            "Most devices are recovered by nets near bridges.",
+            "Their housings are made to break down harmlessly if a flood carries one beyond reach."
+          ]
+        },
+        {
+          "id": "faster-response",
+          "heading": "A faster response",
+          "paragraphs": [
+            "Utilities can compare storm data within hours rather than waiting for a monthly sampling run.",
+            "That speed helps crews target inspections where runoff changed most sharply."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "community-radio-finds-a-second-frequency-online",
+      "title": "Community Radio Finds a Second Frequency Online",
+      "dek": "Local stations are pairing live broadcasts with searchable neighborhood archives.",
+      "category": "world",
+      "author": "maya-chen",
+      "published": "2026-07-30",
+      "updated": "2026-07-30",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1600&q=86",
+      "imageAlt": "A broadcast microphone in a community radio studio",
+      "featured": false,
+      "takeaways": [
+        "Searchable archives extend the value of local reporting.",
+        "Live radio remains essential during outages and emergencies.",
+        "Youth training programs are bringing new voices on air."
+      ],
+      "body": [
+        {
+          "id": "live-and-local",
+          "heading": "Live still matters",
+          "paragraphs": [
+            "During storms and transport shutdowns, a familiar local voice can move faster than a polished app.",
+            "Callers add street-level detail that no central feed can match."
+          ]
+        },
+        {
+          "id": "archive",
+          "heading": "An archive with a search box",
+          "paragraphs": [
+            "Interviews once heard only at breakfast are now tagged by street, subject and guest.",
+            "Residents use the archive to trace how a school plan or housing debate changed over years."
+          ]
+        },
+        {
+          "id": "next-voices",
+          "heading": "Training the next voices",
+          "paragraphs": [
+            "Weekend studios give teenagers a place to learn interviewing and audio editing.",
+            "Many begin with music and stay to report the stories their neighborhoods rarely hear elsewhere."
+          ]
+        }
+      ]
+    }
+  ]
+}

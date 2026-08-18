@@ -1,0 +1,56 @@
+{
+  "authors": [
+    {
+      "slug": "maya-chen",
+      "name": "Maya Chen",
+      "role": "Senior correspondent",
+      "bio": "Maya reports on cities, diplomacy and the public decisions that shape everyday life.",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80",
+      "social": {
+        "x": "https://x.com/mayachen",
+        "instagram": "https://instagram.com/mayachen",
+        "facebook": "https://facebook.com/mayachen",
+        "linkedin": "https://linkedin.com/in/mayachen"
+      }
+    },
+    {
+      "slug": "jonah-reed",
+      "name": "Jonah Reed",
+      "role": "Business editor",
+      "bio": "Jonah covers companies, markets and the changing nature of work with a focus on accountability.",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+      "social": {
+        "x": "https://x.com/jonahreed",
+        "instagram": "https://instagram.com/jonahreed",
+        "facebook": "https://facebook.com/jonahreed",
+        "linkedin": "https://linkedin.com/in/jonahreed"
+      }
+    },
+    {
+      "slug": "leila-santos",
+      "name": "Leila Santos",
+      "role": "Climate reporter",
+      "bio": "Leila writes about adaptation, food systems and the local experiments becoming global models.",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
+      "social": {
+        "x": "https://x.com/leilasantos",
+        "instagram": "https://instagram.com/leilasantos",
+        "facebook": "https://facebook.com/leilasantos",
+        "linkedin": "https://linkedin.com/in/leilasantos"
+      }
+    },
+    {
+      "slug": "noah-williams",
+      "name": "Noah Williams",
+      "role": "Culture critic",
+      "bio": "Noah follows the artists, institutions and technologies changing how culture is made and shared.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
+      "social": {
+        "x": "https://x.com/noahwilliams",
+        "instagram": "https://instagram.com/noahwilliams",
+        "facebook": "https://facebook.com/noahwilliams",
+        "linkedin": "https://linkedin.com/in/noahwilliams"
+      }
+    }
+  ]
+}
