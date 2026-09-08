@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { searchArticles } from "@/lib/search";
 
 export default function SearchBox() {
   const [query, setQuery] = useState("");
@@ -21,11 +22,9 @@ export default function SearchBox() {
     }
 
     setLoading(true);
-    const timer = setTimeout(async () => {
+    const timer = setTimeout(() => {
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-        const data = await res.json();
-        setResults(data.results ?? []);
+        setResults(searchArticles(query));
       } catch {
         setResults([]);
       } finally {
