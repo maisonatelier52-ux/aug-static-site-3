@@ -7,6 +7,11 @@
   },
   "categories": [
     {
+      "slug": "us-news",
+      "name": "US News",
+      "description": "The stories, decisions and debates shaping life across America."
+    },
+    {
       "slug": "world",
       "name": "World",
       "description": "Dispatches, diplomacy and the forces reshaping life across borders."
@@ -17,9 +22,9 @@
       "description": "Markets, companies and the people building the next economy."
     },
     {
-      "slug": "climate",
-      "name": "Climate",
-      "description": "The practical choices defining a warmer, more resilient future."
+      "slug": "finance",
+      "name": "Finance",
+      "description": "Money, markets and the decisions steering where capital flows."
     },
     {
       "slug": "culture",
@@ -33,849 +38,1369 @@
     }
   ],
   "articles": [
-    {
-      "slug": "cities-redesign-public-space-for-extreme-heat",
-      "title": "Cities Redesign Public Space for an Era of Extreme Heat",
-      "dek": "From shaded tram stops to night markets, a new generation of urban projects is treating cool air as essential infrastructure.",
-      "category": "climate",
-      "author": "leila-santos",
-      "published": "2026-08-17",
-      "updated": "2026-08-17",
-      "readingTime": "8 min read",
-      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1800&q=88",
-      "imageAlt": "A tree-lined city avenue in warm evening light",
-      "featured": true,
-      "takeaways": [
-        "Shade and airflow are being measured as public-health infrastructure.",
-        "Small street changes can lower perceived temperatures within a season.",
-        "Residents are helping cities decide where cooling investments go first."
-      ],
-      "body": [
-        {
-          "id": "the-new-heat-map",
-          "heading": "A new kind of heat map",
-          "paragraphs": [
-            "At noon, the temperature difference between two neighboring blocks can feel like a change of season. One is exposed concrete; the other has awnings, mature trees and a narrow fountain that moves air across the pavement.",
-            "City planners are now mapping that difference at walking speed. Instead of relying only on regional forecasts, teams are combining street-level sensors with interviews from bus drivers, market vendors and residents who know exactly where heat gathers."
-          ]
-        },
-        {
-          "id": "shade-as-infrastructure",
-          "heading": "Shade becomes infrastructure",
-          "paragraphs": [
-            "The shift is as much administrative as architectural. Shade budgets once tucked inside beautification programs are moving into transport, health and emergency planning. That makes maintenance less glamorous, but much more dependable.",
-            "New standards ask a practical question: can a child, an older resident or a delivery worker cross the district without spending more than a few minutes in direct sun? The answer changes where trees, canopies and drinking fountains are placed."
-          ]
-        },
-        {
-          "id": "designing-with-residents",
-          "heading": "Designing with the people who stay",
-          "paragraphs": [
-            "Residents are shaping the work through evening walks and temporary street trials. Painted shade structures and movable seating allow neighborhoods to test an idea before concrete is poured.",
-            "The most successful trials do not erase local routines. They keep the fruit seller near the morning bus, preserve a clear path for schoolchildren and give cafés enough room to spill outdoors after sunset."
-          ]
-        },
-        {
-          "id": "what-comes-next",
-          "heading": "What comes next",
-          "paragraphs": [
-            "No single design can cancel a heat wave. The more realistic goal is a network of cooler journeys: a shaded stop, a library open later, a pocket park connected to a breezy route home.",
-            "That network is beginning to change how cities define resilience. It is no longer only a plan for the worst day of the year; it is a promise that ordinary streets can remain usable on all the days in between."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "rail-revival-connects-regional-capitals",
-      "title": "A Rail Revival Is Quietly Connecting Regional Capitals",
-      "dek": "Smaller cities are rebuilding night routes around comfort, reliability and a renewed appetite for slower travel.",
-      "category": "world",
-      "author": "maya-chen",
-      "published": "2026-08-16",
-      "updated": "2026-08-16",
-      "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A passenger train crossing a broad rural landscape",
-      "featured": true,
-      "takeaways": [
-        "Night rail is returning on routes too short for aviation.",
-        "Regional stations are becoming mixed-use civic anchors.",
-        "Reliability matters more to riders than luxury."
-      ],
-      "body": [
-        {
-          "id": "routes-return",
-          "heading": "Routes return",
-          "paragraphs": [
-            "The first departures are modest: six carriages, three nights a week and a timetable designed around morning meetings.",
-            "Yet demand has been strong enough for operators to add weekend service before the first season ended."
-          ]
-        },
-        {
-          "id": "station-life",
-          "heading": "The station comes back to life",
-          "paragraphs": [
-            "Renovated waiting halls now host grocers, clinics and late cafés, giving stations a purpose beyond the platform.",
-            "That mix helps keep the buildings active throughout the day and makes transfers feel safer after dark."
-          ]
-        },
-        {
-          "id": "measuring-success",
-          "heading": "Measuring success",
-          "paragraphs": [
-            "Planners say frequency will decide whether the revival lasts.",
-            "A beautiful carriage cannot compensate for a missed connection, so the next investment cycle is focused on signaling and track capacity."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "the-small-labs-rethinking-battery-repair",
-      "title": "The Small Labs Rethinking How Batteries Get a Second Life",
-      "dek": "Repair teams are building a circular supply chain one diagnostic tool at a time.",
-      "category": "science",
-      "author": "jonah-reed",
-      "published": "2026-08-15",
-      "updated": "2026-08-15",
-      "readingTime": "7 min read",
-      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A researcher working with equipment in a bright laboratory",
-      "featured": true,
-      "takeaways": [
-        "Diagnostics can identify healthy modules before recycling.",
-        "Repair standards are emerging across independent labs.",
-        "Second-life batteries can support small local energy systems."
-      ],
-      "body": [
-        {
-          "id": "diagnose-first",
-          "heading": "Diagnose before dismantling",
-          "paragraphs": [
-            "A retired pack may contain hundreds of cells with very different histories.",
-            "New scanners reveal which modules can keep working and which should move directly to material recovery."
-          ]
-        },
-        {
-          "id": "shared-standards",
-          "heading": "A shared repair language",
-          "paragraphs": [
-            "Independent labs are publishing common testing steps so buyers can compare refurbished modules.",
-            "The standards are voluntary, but insurers and fleet operators are beginning to request them."
-          ]
-        },
-        {
-          "id": "local-grids",
-          "heading": "A role on local grids",
-          "paragraphs": [
-            "The repaired units are rarely destined for another vehicle.",
-            "Instead, they buffer solar power at workshops, apartment blocks and rural clinics where weight matters less than reliability."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "quiet-companies-building-cleaner-ports",
-      "title": "The Quiet Companies Building Cleaner, Faster Ports",
-      "dek": "A wave of practical logistics upgrades is cutting idling time without waiting for moonshot technology.",
-      "category": "business",
-      "author": "jonah-reed",
-      "published": "2026-08-14",
-      "updated": "2026-08-14",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Container cranes at a working seaport",
-      "featured": false,
-      "takeaways": [
-        "Scheduling software is reducing truck queues.",
-        "Shore power is expanding beyond the largest terminals.",
-        "Incremental changes are delivering measurable savings."
-      ],
-      "body": [
-        {
-          "id": "minutes-matter",
-          "heading": "Minutes matter",
-          "paragraphs": [
-            "At a busy gate, ten minutes saved per truck quickly becomes thousands of hours across a year.",
-            "Operators are coordinating arrivals before drivers leave distribution yards."
-          ]
-        },
-        {
-          "id": "plugging-in",
-          "heading": "Ships plug in",
-          "paragraphs": [
-            "More berths are offering shore power, allowing vessels to switch off auxiliary engines while unloading.",
-            "The rollout depends on predictable demand and careful upgrades to local substations."
-          ]
-        },
-        {
-          "id": "practical-transition",
-          "heading": "A practical transition",
-          "paragraphs": [
-            "The industry is learning that modernization does not arrive as one machine.",
-            "It comes as dozens of small systems that finally speak to one another."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "independent-bookshops-share-inventory",
-      "title": "Independent Bookshops Are Sharing Shelves—and Customers",
-      "dek": "A cooperative inventory network is helping local stores compete on discovery instead of speed alone.",
-      "category": "culture",
-      "author": "noah-williams",
-      "published": "2026-08-13",
-      "updated": "2026-08-13",
-      "readingTime": "4 min read",
-      "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Tall shelves in an independent bookshop",
-      "featured": false,
-      "takeaways": [
-        "Shared inventory makes niche titles easier to find.",
-        "Stores retain their own identity and buying choices.",
-        "Readers can reserve across the network for local pickup."
-      ],
-      "body": [
-        {
-          "id": "one-search",
-          "heading": "One search, many shelves",
-          "paragraphs": [
-            "A reader looking for a small-press essay can now search stock across a dozen neighborhood shops.",
-            "The sale still belongs to the store that holds the book, while pickup can be arranged closer to home."
-          ]
-        },
-        {
-          "id": "local-taste",
-          "heading": "Local taste remains",
-          "paragraphs": [
-            "The cooperative does not centralize buying.",
-            "Each bookseller keeps the eccentric choices and handwritten recommendations that make the store worth visiting."
-          ]
-        },
-        {
-          "id": "next-chapter",
-          "heading": "The next chapter",
-          "paragraphs": [
-            "Members plan to add shared author tours and a common delivery route.",
-            "The ambition is not to imitate a warehouse, but to make a dispersed cultural network easier to see."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "coastal-farms-learn-to-grow-with-salt",
-      "title": "Coastal Farms Learn to Grow With Salt in the Soil",
-      "dek": "Seed libraries and new irrigation habits are helping growers adapt field by field.",
-      "category": "climate",
-      "author": "leila-santos",
-      "published": "2026-08-12",
-      "updated": "2026-08-12",
-      "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Green agricultural fields under a dramatic sky",
-      "featured": false,
-      "takeaways": [
-        "Salt-tolerant seed trials are moving onto working farms.",
-        "Freshwater is being reserved for the most sensitive crops.",
-        "Shared soil data helps neighbors adapt faster."
-      ],
-      "body": [
-        {
-          "id": "changing-fields",
-          "heading": "Fields are changing",
-          "paragraphs": [
-            "Salt arrives gradually through storm surges and rising groundwater.",
-            "Farmers are tracking the change with inexpensive probes and old-fashioned taste tests at field drains."
-          ]
-        },
-        {
-          "id": "seed-libraries",
-          "heading": "Seeds selected locally",
-          "paragraphs": [
-            "Community seed libraries are comparing varieties across neighboring plots.",
-            "The results are less universal than a commercial catalogue, but much more useful to growers facing the same soil."
-          ]
-        },
-        {
-          "id": "water-budget",
-          "heading": "A tighter water budget",
-          "paragraphs": [
-            "Drip lines and covered channels reduce waste, while rainwater is reserved for seedlings.",
-            "The adaptations buy time and preserve options while regional defenses are debated."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "why-mid-sized-firms-are-hiring-historians",
-      "title": "Why Mid-Sized Firms Are Hiring Historians",
-      "dek": "Corporate archives are becoming a tool for product strategy, not just anniversary books.",
-      "category": "business",
-      "author": "jonah-reed",
-      "published": "2026-08-11",
-      "updated": "2026-08-11",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Open archival books and documents on a table",
-      "featured": false,
-      "takeaways": [
-        "Archives reveal why earlier product bets worked or failed.",
-        "Historians bring context to long-running customer relationships.",
-        "The role works best when it is connected to current teams."
-      ],
-      "body": [
-        {
-          "id": "more-than-memory",
-          "heading": "More than memory",
-          "paragraphs": [
-            "A century of catalogues can show which customer needs endure beneath changing language.",
-            "That evidence is giving strategy teams a longer baseline than a quarterly dashboard."
-          ]
-        },
-        {
-          "id": "inside-decisions",
-          "heading": "Inside old decisions",
-          "paragraphs": [
-            "Meeting notes explain not only what a company launched, but what alternatives it rejected.",
-            "Those forgotten branches can become useful when technology makes an old idea newly practical."
-          ]
-        },
-        {
-          "id": "keeping-relevant",
-          "heading": "Keeping the archive relevant",
-          "paragraphs": [
-            "The best programs place historians alongside designers and operators.",
-            "Without that connection, even a beautifully organized archive can become a quiet room no one enters."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "public-libraries-open-late-for-shift-workers",
-      "title": "Public Libraries Open Late for a City That Works at Night",
-      "dek": "Extended hours are turning familiar civic rooms into anchors for shift workers and students.",
-      "category": "world",
-      "author": "maya-chen",
-      "published": "2026-08-10",
-      "updated": "2026-08-10",
-      "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A quiet reading room with long shelves and warm lights",
-      "featured": false,
-      "takeaways": [
-        "Late hours serve workers overlooked by daytime services.",
-        "Security is designed around hospitality and visibility.",
-        "Usage data is reshaping transit connections."
-      ],
-      "body": [
-        {
-          "id": "after-midnight",
-          "heading": "A public room after midnight",
-          "paragraphs": [
-            "The busiest hour is often just after the restaurants close.",
-            "Workers arrive to print forms, charge phones or sit somewhere calm before the first train home."
-          ]
-        },
-        {
-          "id": "designed-for-welcome",
-          "heading": "Designed for welcome",
-          "paragraphs": [
-            "Clear sightlines and staffed desks have proved more effective than a fortress of locked doors.",
-            "Librarians say the atmosphere depends on making expectations visible without making visitors feel watched."
-          ]
-        },
-        {
-          "id": "beyond-books",
-          "heading": "Beyond books",
-          "paragraphs": [
-            "The pilot is influencing bus timetables and social-service hours nearby.",
-            "A building that stays open reveals the hidden geography of who is awake and what they need."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "theater-companies-stage-one-room-plays",
-      "title": "Theater Companies Find New Freedom in One-Room Plays",
-      "dek": "Small productions are trading scale for intimacy, speed and a different relationship with audiences.",
-      "category": "culture",
-      "author": "noah-williams",
-      "published": "2026-08-09",
-      "updated": "2026-08-09",
-      "readingTime": "4 min read",
-      "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "An illuminated theater stage viewed from the audience",
-      "featured": false,
-      "takeaways": [
-        "Compact shows can tour unusual community venues.",
-        "Writers are creating around proximity rather than spectacle.",
-        "Short runs let companies respond quickly to local stories."
-      ],
-      "body": [
-        {
-          "id": "close-enough",
-          "heading": "Close enough to hear a breath",
-          "paragraphs": [
-            "With forty seats, every pause becomes visible.",
-            "Performers describe the room less as a stage and more as a shared piece of weather."
-          ]
-        },
-        {
-          "id": "portable-stories",
-          "heading": "Portable stories",
-          "paragraphs": [
-            "The sets fit in a van and the lighting plan can adapt to a hall, shopfront or library.",
-            "That flexibility brings work to towns far beyond the usual touring circuit."
-          ]
-        },
-        {
-          "id": "fast-response",
-          "heading": "A faster response",
-          "paragraphs": [
-            "Lower production costs make shorter development cycles possible.",
-            "Companies can commission a piece in spring and place it before an audience by autumn."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "a-telescope-built-for-patient-science",
-      "title": "A Telescope Built for the Patient Science of Watching",
-      "dek": "A new observatory will revisit the same patches of sky, night after night, to catch what changes.",
-      "category": "science",
-      "author": "maya-chen",
-      "published": "2026-08-08",
-      "updated": "2026-08-08",
-      "readingTime": "7 min read",
-      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A luminous view of Earth and space",
-      "featured": false,
-      "takeaways": [
-        "Repeated observation can reveal brief cosmic events.",
-        "Open alerts will let smaller observatories follow discoveries.",
-        "The project is designed around long-term data stewardship."
-      ],
-      "body": [
-        {
-          "id": "returning",
-          "heading": "The value of returning",
-          "paragraphs": [
-            "Most discoveries will begin as a small difference between two images.",
-            "Software will flag the change, but astronomers will decide which ones deserve a closer look."
-          ]
-        },
-        {
-          "id": "shared-alerts",
-          "heading": "Alerts for everyone",
-          "paragraphs": [
-            "The observatory plans to publish rapid notices that other telescopes can follow.",
-            "That turns one instrument into a conductor for a much larger network."
-          ]
-        },
-        {
-          "id": "long-memory",
-          "heading": "A long scientific memory",
-          "paragraphs": [
-            "The archive may prove as important as the telescope itself.",
-            "Questions not yet imagined will be tested against a record built one clear night at a time."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "neighborhood-kitchens-pool-buying-power",
-      "title": "Neighborhood Kitchens Pool Their Buying Power",
-      "dek": "Independent restaurants are sharing deliveries while keeping their menus fiercely individual.",
-      "category": "business",
-      "author": "jonah-reed",
-      "published": "2026-08-07",
-      "updated": "2026-08-07",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1516211697506-8360dbcfe9a4?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Chefs working together in a professional kitchen",
-      "featured": false,
-      "takeaways": [
-        "Shared orders reduce costs without standardizing menus.",
-        "One delivery window means fewer vehicles on narrow streets.",
-        "Transparent pricing is essential to trust."
-      ],
-      "body": [
-        {
-          "id": "shared-cart",
-          "heading": "A shared cart",
-          "paragraphs": [
-            "Each restaurant submits its weekly needs to a cooperative buyer.",
-            "The combined order earns better terms while preserving each chef's choices."
-          ]
-        },
-        {
-          "id": "fewer-vans",
-          "heading": "Fewer vans, calmer streets",
-          "paragraphs": [
-            "Consolidated deliveries reduce the morning queue outside tightly packed kitchens.",
-            "Suppliers benefit too, because drivers make one predictable stop."
-          ]
-        },
-        {
-          "id": "trust-system",
-          "heading": "A system built on trust",
-          "paragraphs": [
-            "Every invoice and rebate is visible to members.",
-            "That transparency is less exciting than a new menu, but it is what keeps the cooperative together."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "river-towns-build-parks-that-flood",
-      "title": "River Towns Build Parks Designed to Flood",
-      "dek": "New waterfronts make room for high water, then reopen as playing fields when rivers recede.",
-      "category": "climate",
-      "author": "leila-santos",
-      "published": "2026-08-06",
-      "updated": "2026-08-06",
-      "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A broad green wetland beside calm water",
-      "featured": false,
-      "takeaways": [
-        "Floodable parks protect nearby streets and homes.",
-        "Materials are selected to recover quickly after high water.",
-        "Daily usefulness helps adaptation projects win public support."
-      ],
-      "body": [
-        {
-          "id": "room-for-water",
-          "heading": "Making room for water",
-          "paragraphs": [
-            "A low lawn becomes a temporary basin when the river rises.",
-            "Paths and playgrounds sit slightly higher, guiding water away from homes without a wall."
-          ]
-        },
-        {
-          "id": "quick-recovery",
-          "heading": "Designed to recover",
-          "paragraphs": [
-            "Benches use simple fixings and electrical systems are raised above expected flood levels.",
-            "Maintenance crews can rinse paths and reopen sections within days."
-          ]
-        },
-        {
-          "id": "everyday-value",
-          "heading": "Useful on ordinary days",
-          "paragraphs": [
-            "The parks succeed because residents use them between storms.",
-            "Adaptation becomes part of daily life instead of a structure noticed only during an emergency."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "museum-labels-become-a-conversation",
-      "title": "Museum Labels Become a Conversation, Not a Verdict",
-      "dek": "Curators are making room for uncertainty, disagreement and the voices missing from the archive.",
-      "category": "culture",
-      "author": "noah-williams",
-      "published": "2026-08-05",
-      "updated": "2026-08-05",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Visitors standing beneath artwork in a gallery",
-      "featured": false,
-      "takeaways": [
-        "Labels now identify gaps as well as facts.",
-        "Community contributors are credited alongside curators.",
-        "Digital layers carry debate without crowding gallery walls."
-      ],
-      "body": [
-        {
-          "id": "visible-uncertainty",
-          "heading": "Making uncertainty visible",
-          "paragraphs": [
-            "A date followed by a question mark can be more honest than a smooth sentence.",
-            "Curators are learning to show where the record is thin and why earlier assumptions changed."
-          ]
-        },
-        {
-          "id": "more-authors",
-          "heading": "More authors in the room",
-          "paragraphs": [
-            "New labels credit translators, community historians and conservators.",
-            "The object remains central, but the institutional voice is no longer pretending to be singular."
-          ]
-        },
-        {
-          "id": "layers",
-          "heading": "Layers beyond the wall",
-          "paragraphs": [
-            "Optional audio and web notes hold longer debates for visitors who want them.",
-            "The goal is not endless text; it is a clearer path from certainty to evidence."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "schools-test-phone-free-lunchrooms",
-      "title": "Schools Test Phone-Free Lunchrooms—and Students Stay Longer",
-      "dek": "A simple change is producing noisier tables, slower meals and unexpected new rituals.",
-      "category": "world",
-      "author": "maya-chen",
-      "published": "2026-08-04",
-      "updated": "2026-08-04",
-      "readingTime": "4 min read",
-      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A group of students talking together outdoors",
-      "featured": false,
-      "takeaways": [
-        "Students helped write the rules and exemptions.",
-        "Lunch periods feel longer even when schedules stay the same.",
-        "The strongest programs pair boundaries with better shared spaces."
-      ],
-      "body": [
-        {
-          "id": "student-rules",
-          "heading": "Rules written with students",
-          "paragraphs": [
-            "The policy began as a two-week trial proposed by the student council.",
-            "Clear exceptions for caregivers and health needs helped keep the conversation practical."
-          ]
-        },
-        {
-          "id": "time-feels-different",
-          "heading": "When time feels different",
-          "paragraphs": [
-            "Lunch is not longer on the clock, but students describe it as less fragmented.",
-            "Card games and shared playlists have become ordinary sights."
-          ]
-        },
-        {
-          "id": "space-matters",
-          "heading": "The room still matters",
-          "paragraphs": [
-            "Phone baskets alone do not create community.",
-            "Schools seeing the best results also added round tables, outdoor seats and clubs that meet over lunch."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "open-source-tools-map-urban-sound",
-      "title": "Open-Source Tools Map the Sound of a City Block",
-      "dek": "Low-cost sensors are helping residents document noise and argue for quieter street design.",
-      "category": "science",
-      "author": "leila-santos",
-      "published": "2026-08-03",
-      "updated": "2026-08-03",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A dense modern city street at dusk",
-      "featured": false,
-      "takeaways": [
-        "Community sensors reveal patterns official averages miss.",
-        "Privacy rules keep recordings off the device.",
-        "The maps are changing loading zones and traffic timing."
-      ],
-      "body": [
-        {
-          "id": "measuring-patterns",
-          "heading": "Measuring patterns, not conversations",
-          "paragraphs": [
-            "The devices record sound pressure, not audio, preserving privacy while showing when noise spikes.",
-            "Placed across a block, they reveal a rhythm invisible in a single official reading."
-          ]
-        },
-        {
-          "id": "community-data",
-          "heading": "Community-owned data",
-          "paragraphs": [
-            "Residents can download the readings and annotate unusual events.",
-            "That context keeps a construction day from being mistaken for the normal life of the street."
-          ]
-        },
-        {
-          "id": "from-map-to-street",
-          "heading": "From map to street",
-          "paragraphs": [
-            "Transport teams are shifting delivery windows and retiming signals at the loudest intersections.",
-            "The changes are small, but residents can measure whether they work."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "makers-turn-repair-into-live-theater",
-      "title": "Makers Turn Repair Into a Kind of Live Theater",
-      "dek": "Public workshops are putting broken objects—and patient craftsmanship—on display.",
-      "category": "culture",
-      "author": "noah-williams",
-      "published": "2026-08-02",
-      "updated": "2026-08-02",
-      "readingTime": "4 min read",
-      "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Craft tools arranged on a wooden workshop table",
-      "featured": false,
-      "takeaways": [
-        "Open benches make expertise visible and approachable.",
-        "Visitors learn why some objects are worth saving.",
-        "Repair stories create new attachment to ordinary things."
-      ],
-      "body": [
-        {
-          "id": "open-bench",
-          "heading": "The open bench",
-          "paragraphs": [
-            "Instead of disappearing behind a service counter, each repair happens at a long communal table.",
-            "Visitors watch a radio open up or a chair regain its balance."
-          ]
-        },
-        {
-          "id": "explain-the-choice",
-          "heading": "Explaining the choice",
-          "paragraphs": [
-            "Makers narrate why a cracked part can be patched and why another must be replaced.",
-            "That judgment is often more valuable than the technique itself."
-          ]
-        },
-        {
-          "id": "new-stories",
-          "heading": "Objects with new stories",
-          "paragraphs": [
-            "A visible mend becomes part of an object's biography.",
-            "Owners leave with more than a working item; they leave understanding what it took to keep."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "the-new-economics-of-main-street-cinemas",
-      "title": "The New Economics of Main-Street Cinemas",
-      "dek": "Independent screens are combining memberships, festivals and weekday workspaces to keep the lights on.",
-      "category": "business",
-      "author": "jonah-reed",
-      "published": "2026-08-01",
-      "updated": "2026-08-01",
-      "readingTime": "6 min read",
-      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "Rows of red seats in a classic cinema",
-      "featured": false,
-      "takeaways": [
-        "Memberships smooth revenue between major releases.",
-        "Empty daytime lobbies are becoming work and event spaces.",
-        "Local programming distinguishes cinemas from streaming platforms."
-      ],
-      "body": [
-        {
-          "id": "members-first",
-          "heading": "Members first",
-          "paragraphs": [
-            "Monthly memberships trade a little ticket revenue for predictable cash flow.",
-            "They also give programmers a core audience for restorations and local premieres."
-          ]
-        },
-        {
-          "id": "daytime-space",
-          "heading": "A building used all day",
-          "paragraphs": [
-            "Cafés and lobbies now host freelancers, schools and community meetings before the first screening.",
-            "The extra activity makes a large building less dependent on three evening hours."
-          ]
-        },
-        {
-          "id": "programming-identity",
-          "heading": "Programming as identity",
-          "paragraphs": [
-            "The strongest cinemas are not trying to match every title online.",
-            "They build trust through introductions, festivals and the pleasure of seeing something together."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "floating-sensors-follow-changing-rivers",
-      "title": "Floating Sensors Follow the Changing Pulse of Rivers",
-      "dek": "Biodegradable devices are giving researchers a moving picture of water quality after storms.",
-      "category": "science",
-      "author": "leila-santos",
-      "published": "2026-07-31",
-      "updated": "2026-07-31",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A winding river moving through a green landscape",
-      "featured": false,
-      "takeaways": [
-        "Moving sensors capture changes between fixed monitoring stations.",
-        "Biodegradable housings reduce recovery risks.",
-        "Fast results help utilities respond after heavy rain."
-      ],
-      "body": [
-        {
-          "id": "moving-measurement",
-          "heading": "Measurement in motion",
-          "paragraphs": [
-            "A sensor released upstream records temperature and conductivity as the current carries it through tributaries.",
-            "The route reveals transitions that fixed gauges can miss."
-          ]
-        },
-        {
-          "id": "designed-to-disappear",
-          "heading": "Designed to disappear safely",
-          "paragraphs": [
-            "Most devices are recovered by nets near bridges.",
-            "Their housings are made to break down harmlessly if a flood carries one beyond reach."
-          ]
-        },
-        {
-          "id": "faster-response",
-          "heading": "A faster response",
-          "paragraphs": [
-            "Utilities can compare storm data within hours rather than waiting for a monthly sampling run.",
-            "That speed helps crews target inspections where runoff changed most sharply."
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "community-radio-finds-a-second-frequency-online",
-      "title": "Community Radio Finds a Second Frequency Online",
-      "dek": "Local stations are pairing live broadcasts with searchable neighborhood archives.",
-      "category": "world",
-      "author": "maya-chen",
-      "published": "2026-07-30",
-      "updated": "2026-07-30",
-      "readingTime": "5 min read",
-      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1600&q=86",
-      "imageAlt": "A broadcast microphone in a community radio studio",
-      "featured": false,
-      "takeaways": [
-        "Searchable archives extend the value of local reporting.",
-        "Live radio remains essential during outages and emergencies.",
-        "Youth training programs are bringing new voices on air."
-      ],
-      "body": [
-        {
-          "id": "live-and-local",
-          "heading": "Live still matters",
-          "paragraphs": [
-            "During storms and transport shutdowns, a familiar local voice can move faster than a polished app.",
-            "Callers add street-level detail that no central feed can match."
-          ]
-        },
-        {
-          "id": "archive",
-          "heading": "An archive with a search box",
-          "paragraphs": [
-            "Interviews once heard only at breakfast are now tagged by street, subject and guest.",
-            "Residents use the archive to trace how a school plan or housing debate changed over years."
-          ]
-        },
-        {
-          "id": "next-voices",
-          "heading": "Training the next voices",
-          "paragraphs": [
-            "Weekend studios give teenagers a place to learn interviewing and audio editing.",
-            "Many begin with music and stay to report the stories their neighborhoods rarely hear elsewhere."
-          ]
-        }
-      ]
-    }
+
+  {
+    "slug": "flash-floods-grand-canyon-phantom-ranch",
+    "title": "Flash Floods Slam Grand Canyon's Historic Ranch",
+    "dek": "A late-August flash flood killed two hikers and swamped Phantom Ranch, the second historic Grand Canyon site hit by disaster in a year.",
+    "category": "us-news",
+    "author": "marcus-whitfield",
+    "published": "2026-09-04",
+    "updated": "2026-09-06",
+    "readingTime": "4 min read",
+    "image": "../images/flash-flood-grand-canyon.webp",
+    "imageAlt": "Muddy floodwater cutting through a steep desert canyon",
+    "featured": true,
+    "takeaways": [
+      "A flash flood killed two hikers and left one missing near Phantom Ranch on August 29.",
+      "It is the second historic Grand Canyon landmark damaged by disaster in just over a year.",
+      "Scientists link the flood's severity to fire-scarred slopes that no longer slow heavy rain."
+    ],
+    "body": [
+      {
+        "id": "second-disaster-in-a-year",
+        "heading": "A second disaster in a year",
+        "paragraphs": [
+          "PHOENIX — A wall of muddy water tore through the bottom of the Grand Canyon on August 29, killing two hikers, leaving a third person missing, and swamping the historic Phantom Ranch lodge that has hosted overnight visitors since the 1920s. The flash flood, among the most destructive in the park's recorded history, struck the Bright Angel Creek corridor below a slope scarred by last year's wildfire, according to the National Park Service and the National Weather Service.",
+          "It is the second time in just over a year that a natural disaster has damaged a landmark structure inside Grand Canyon National Park. In July 2025, a fast-moving wildfire destroyed the historic Grand Canyon Lodge on the North Rim, the only overnight lodging on that side of the canyon. Officials say the two disasters are connected: the same burn scar that leveled the lodge last summer left the ground below it stripped of vegetation and far more prone to flash flooding this year."
+        ]
+      },
+      {
+        "id": "what-happened-at-phantom-ranch",
+        "heading": "What happened at Phantom Ranch",
+        "paragraphs": [
+          "Rescue crews scrambled as floodwaters rose more than 15 feet in places, trapping over 80 hikers and campers deep in the canyon. Over two days, National Park Service staff and Arizona Department of Public Safety helicopter crews flew more than a dozen missions, ferrying stranded visitors to Maswik Lodge on the South Rim with help from the American Red Cross. By September 3, all but one person had been accounted for; the bodies of two campers who had set out on a rafting trip were recovered downstream.",
+          "The flood ripped through the Bright Angel Campground and inner canyon trail network, tossing construction equipment and debris into the Colorado River and briefly halting river traffic because of the hazard. Park officials say roughly 40 percent of the water lines serving the canyon's interior were damaged or destroyed, forcing South Rim hotels to shut off water service for a stretch over the Labor Day weekend, historically one of the park's busiest periods."
+        ]
+      },
+      {
+        "id": "a-park-scarred-by-fire-and-flood",
+        "heading": "A park scarred by fire and flood",
+        "paragraphs": [
+          "Scientists say the pairing of fire and flood at Grand Canyon fits a pattern showing up across the West. A warmer atmosphere holds more moisture, which can translate into heavier, more sudden rainfall during the region's summer monsoon season. At the same time, hotter and longer wildfire seasons leave more hillsides bare, stripping away the roots and vegetation that would normally slow a downpour before it reaches a creek bed.",
+          "The National Weather Service kept a flash flood watch in place for days afterward, warning that already saturated soil and additional monsoon storms raised the risk of a repeat event. Arizona Gov. Katie Hobbs raised the incident with federal officials within a day of the flooding, and the Interior Department says it is still assessing the extent of the damage at Phantom Ranch, cautioning that a full inspection will take time given how remote the site is."
+        ]
+      },
+      {
+        "id": "recovery-and-unanswered-questions",
+        "heading": "Recovery and unanswered questions",
+        "paragraphs": [
+          "Phantom Ranch, Bright Angel Campground and large sections of the inner canyon trail network remain closed indefinitely while the Park Service clears debris and inspects infrastructure. That leaves a gap in one of the most sought-after backcountry experiences in the American park system, since reservations for an overnight stay at the bottom of the canyon are normally booked more than a year in advance.",
+          "For now, park officials are focused on stabilizing water and trail systems rather than setting a reopening date. But the back-to-back disasters have added Grand Canyon to a growing list of national parks where managers are being forced to plan around wildfire and flood risk as a routine part of operating iconic public land, not a once-in-a-generation exception."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "flock-cameras-bipartisan-backlash",
+    "title": "Flock Cameras Draw Fire From Both Parties",
+    "dek": "Republican and Democratic officials are moving to restrict Flock's license plate cameras as surveillance fears cross party lines before the midterms.",
+    "category": "us-news",
+    "author": "renata-cole",
+    "published": "2026-09-05",
+    "updated": "2026-09-06",
+    "readingTime": "4 min read",
+    "image": "../images/flock-cameras-bipartisan-backlash.webp",
+    "imageAlt": "A traffic camera mounted above a busy highway",
+    "featured": false,
+    "takeaways": [
+      "Governors in Florida, Texas and Pennsylvania have all moved against Flock's license plate readers in recent weeks.",
+      "Opposition spans the political spectrum, with progressives citing immigration and abortion surveillance and conservatives citing distrust of centralized data.",
+      "Midterm campaign ads in several states are now targeting the cameras directly."
+    ],
+    "body": [
+      {
+        "id": "a-rare-bipartisan-target",
+        "heading": "A rare bipartisan target",
+        "paragraphs": [
+          "WASHINGTON — Automatic license plate readers made by the surveillance company Flock Safety have become one of the rare targets uniting Republicans and Democrats this election season, with governors in Florida, Texas and Pennsylvania all moving against the technology within the same two-week stretch. Flock's cameras, used by thousands of law enforcement agencies nationwide, photograph and log license plates and vehicle details on public roads, building a searchable record officers can use to track a vehicle's movements over time.",
+          "Florida Gov. Ron DeSantis, a Republican, recently moved to revoke permits allowing the cameras on state highways, saying he supports giving police useful tools but does not want the state sliding toward a surveillance system. Texas Gov. Greg Abbott froze state spending on the cameras. Pennsylvania Gov. Josh Shapiro, a Democrat, went further, saying he would welcome bipartisan legislation banning the devices statewide because, in his view, they no longer serve the public interest."
+        ]
+      },
+      {
+        "id": "governors-break-with-law-enforcement",
+        "heading": "Governors break with law enforcement",
+        "paragraphs": [
+          "The opposition is notable because it cuts across the usual partisan lines on policing and technology. Progressive lawmakers and civil liberties groups have raised alarms that Flock's nationwide camera network has been tapped by federal immigration authorities and, in at least one documented case, used by a Texas police department to help search for a woman who had traveled out of state seeking an abortion.",
+          "Conservative officials, meanwhile, have framed their objections around limited government and a general wariness of centralized surveillance infrastructure, regardless of who is doing the watching. Senate Republicans have also opened an inquiry into reports of police misuse of the camera data, adding another layer of scrutiny as the company's footprint keeps growing."
+        ]
+      },
+      {
+        "id": "why-flock-triggers-distrust",
+        "heading": "Why Flock triggers distrust",
+        "paragraphs": [
+          "Flock, an Atlanta-based company valued at roughly $7.5 billion a year ago, says its cameras help police recover stolen cars, find missing people and solve crimes, and that it counts more than 6,000 customers — including police departments, homeowners associations and private businesses — in nearly every state. Every month, the network captures billions of license plates along with details like a vehicle's make, model, bumper stickers and roof racks.",
+          "Civil liberties advocates argue that scale is exactly the problem. An analyst with the American Civil Liberties Union said the technology has effectively created a constant, searchable record of where ordinary Americans drive, describing it as a kind of persistent surveillance many people never agreed to live under. In several communities, that unease has spilled into direct action, with cameras vandalized or torn down by frustrated residents."
+        ]
+      },
+      {
+        "id": "what-could-change",
+        "heading": "What could change",
+        "paragraphs": [
+          "With midterm races heating up in states including Florida, Ohio and Wisconsin, campaign ads attacking Flock cameras are starting to appear alongside ads targeting AI data centers, another flashpoint drawing bipartisan criticism this cycle. Lawmakers in Washington state and elsewhere have introduced bills that would not ban the cameras outright but would set clearer rules on how long footage can be stored and who is allowed to search it.",
+          "It is not yet clear whether the political momentum will translate into new state laws before Election Day. But with governors from both parties now publicly questioning a technology that was largely uncontroversial just a few years ago, Flock's expansion into new markets looks likely to face a rockier path than the company anticipated."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "trump-state-citizen-voter-lists-stall",
+    "title": "Trump Push for State Citizen Voter Lists Stalls",
+    "dek": "The administration is compiling unprecedented state citizen voter rolls ahead of the midterms but has missed its own deadline amid lawsuits.",
+    "category": "us-news",
+    "author": "devon-ashworth",
+    "published": "2026-09-03",
+    "updated": "2026-09-04",
+    "readingTime": "4 min read",
+    "image": "../images/trump-state-citizen-voter-lists-stall.webp",
+    "imageAlt": "A row of voting booths inside a polling place",
+    "featured": false,
+    "takeaways": [
+      "The administration is building the first comprehensive federal citizen voter list in U.S. history ahead of the midterms.",
+      "A September 4 deadline to launch the project publicly was missed amid ongoing litigation.",
+      "Voting rights groups warn the effort could confuse or discourage eligible voters, including naturalized citizens."
+    ],
+    "body": [
+      {
+        "id": "an-unprecedented-project",
+        "heading": "An unprecedented project",
+        "paragraphs": [
+          "WASHINGTON — The Trump administration is pressing ahead with a project that has no precedent in American history: building a state-by-state federal list of adult citizens the government considers eligible to vote, ahead of the November midterms. The effort marks a sharp departure from how U.S. elections have always worked, since maintaining voter rolls has traditionally been left to the states under the Constitution, not compiled centrally by Washington.",
+          "The initiative traces back to an executive order President Trump signed on March 31 directing federal agencies to help states verify voter eligibility. A lower court blocked key parts of that order in 23 states and the District of Columbia, but the Supreme Court stayed that injunction late last month, clearing the way for the administration to move forward while the underlying legal fight continues."
+        ]
+      },
+      {
+        "id": "a-missed-deadline",
+        "heading": "A missed deadline",
+        "paragraphs": [
+          "The administration had set itself a target of launching a public portal with the citizenship data 60 days before Election Day, a deadline that fell on September 4. Justice Department attorneys told opposing counsel in two separate lawsuits that the government would not meet that date after all, instead promising just 48 hours' notice to plaintiffs' lawyers before the portal goes live.",
+          "The delay has done little to ease concerns among voting rights groups and state election officials, who say they still do not know exactly what data the lists will contain, how the government arrived at its citizenship determinations, or how the information might be used once it is published."
+        ]
+      },
+      {
+        "id": "the-legal-fight",
+        "heading": "The legal fight",
+        "paragraphs": [
+          "Two nonprofit legal organizations, Protect Democracy and Citizens for Responsibility and Ethics in Washington, have asked courts to block the project, arguing the administration lacks the constitutional authority to build what would effectively be the first comprehensive federal citizenship list in the country's history. The Justice Department has separately sued roughly two dozen states and the District of Columbia over their refusal to hand over voter registration data outright, part of a broader push that has touched nearly every state except North Dakota, which does not require voter registration.",
+          "Election officials from both parties have pushed back at various points, arguing that state-run voter list maintenance already includes safeguards a hastily built federal system might lack, and warning that errors in a citizenship determination could wrongly flag eligible voters as ineligible just weeks before they cast a ballot."
+        ]
+      },
+      {
+        "id": "what-it-means-for-voters",
+        "heading": "What it means for voters",
+        "paragraphs": [
+          "For now, the practical effect on any individual voter's ability to cast a ballot in November remains unclear, since the portal has not yet launched and the litigation is ongoing. Voting rights advocates say the bigger worry is a chilling effect: even the prospect of a federal citizenship list circulating close to Election Day could make some eligible voters, particularly naturalized citizens, hesitant to show up at the polls.",
+          "State election officials, who are constitutionally responsible for running elections, say they are watching the rollout closely and coordinating with courts in their states to make sure any federal data does not override their own established voter rolls. The dispute is expected to remain unresolved, and likely still in court, when polls open on November 3."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "judge-extends-big-bend-border-wall-pause",
+    "title": "Judge Extends Pause on Big Bend Border Wall Work",
+    "dek": "A federal judge has halted border wall construction in Big Bend National Park through September 30 amid a lawsuit from tribal and environmental groups.",
+    "category": "us-news",
+    "author": "isabel-nakamura",
+    "published": "2026-09-01",
+    "updated": "2026-09-05",
+    "readingTime": "4 min read",
+    "image": "../images/judge-extends-big-bend-border-wall-pause.webp",
+    "imageAlt": "A desert canyon landscape along a river at the US-Mexico border",
+    "featured": false,
+    "takeaways": [
+      "A federal judge extended a pause on border wall construction inside Big Bend National Park through September 30.",
+      "The lawsuit was brought by a Lipan Apache-affiliated nonprofit and a local river-rafting business.",
+      "The plaintiffs argue the project bypasses environmental and religious-freedom protections."
+    ],
+    "body": [
+      {
+        "id": "construction-halted-again",
+        "heading": "Construction halted again",
+        "paragraphs": [
+          "SAN ANTONIO — A federal judge has extended a pause on border wall construction inside Big Bend National Park through September 30, giving both sides more time to negotiate over a project that has drawn opposition from tribal members, environmental groups and local business owners in one of the most remote stretches of the U.S.-Mexico border.",
+          "The halt covers ground-disturbing work tied to two segments of the administration's border barrier plan, known as Big Bend 2 and Big Bend 4, the latter of which cuts directly through the national park. It is the latest extension in a legal fight that began in mid-August, when construction crews and bulldozers first arrived near Santa Elena Canyon, one of the park's most visited landmarks."
+        ]
+      },
+      {
+        "id": "who-is-suing-and-why",
+        "heading": "Who is suing, and why",
+        "paragraphs": [
+          "The lawsuit was filed by the People of La Junta for Preservation, a nonprofit tied to the Lipan Apache community, along with Far Flung Outdoor Center, a river-rafting outfitter based in the nearby town of Terlingua that depends on public access to the Rio Grande for its business. The plaintiffs argue that Congress set the land aside specifically as a national park and that the Department of Homeland Security does not have unlimited authority to bypass the protections that come with that designation.",
+          "A Lipan Apache community member testified that construction work had already interfered with access to sites she considers sacred, both inside the park and on adjoining private land, raising claims under the Religious Freedom Restoration Act. The suit also contends that Homeland Security Secretary Markwayne Mullin issued waivers that stripped away the environmental, archaeological and historic-preservation reviews that would ordinarily precede a project of this scale."
+        ]
+      },
+      {
+        "id": "inside-the-courtroom",
+        "heading": "Inside the courtroom",
+        "paragraphs": [
+          "U.S. District Judge Orlando Garcia has kept the pause in place through a series of hearings since late August, most recently pushing the deadline from September 15 to September 30 to allow more time for the two sides to talk. Customs and Border Protection had already imposed its own two-week administrative pause after the agency's commissioner, Rodney Scott, visited the park to meet with local officials, but the court order goes further, legally barring any earth-moving work during the pause.",
+          "Government attorneys have argued that halting the Big Bend segments does not meaningfully slow the broader border security effort, describing the work in the park as a small piece of a $46 billion plan to eventually wall off the length of the roughly 2,000-mile southern border with a mix of 30-foot steel bollard fencing, vehicle barriers and surveillance technology."
+        ]
+      },
+      {
+        "id": "the-road-ahead",
+        "heading": "The road ahead",
+        "paragraphs": [
+          "Opponents say the pause is a meaningful, if temporary, win, and that ground already disturbed by construction equipment near Santa Elena Canyon may take years to recover regardless of what happens next. The park itself has remained open throughout the dispute, with only a handful of roads and the Santa Elena boat launch closed because of the construction zone or unrelated flood damage.",
+          "The case is due back in court before the end of the month, when Judge Garcia is expected to decide whether to extend the pause further, issue a longer-term injunction, or allow construction to resume based on whatever revised plan the Department of Homeland Security presents. Until then, one of the most ecologically and culturally significant stretches of the border remains a construction site frozen in place."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "irs-tax-exempt-status-race-based-aid-schools",
+    "title": "IRS Moves to Strip Tax Breaks Over Race-Based Aid",
+    "dek": "A new Treasury and IRS proposal would strip tax-exempt status from private schools that give students race-based admissions or scholarship preferences.",
+    "category": "us-news",
+    "author": "priya-oyelaran",
+    "published": "2026-09-03",
+    "updated": "2026-09-04",
+    "readingTime": "4 min read",
+    "image": "../images/irs-tax-exempt-status-race-based-aid-schools.webp",
+    "imageAlt": "A university campus building with students walking outside",
+    "featured": false,
+    "takeaways": [
+      "Treasury and the IRS have proposed stripping tax-exempt status from private schools with race-based aid programs.",
+      "The rule could affect up to 18,000 private schools, colleges and other education institutions.",
+      "Higher education groups call the move an attack on access for low-income and minority students."
+    ],
+    "body": [
+      {
+        "id": "a-new-front-in-the-dei-fight",
+        "heading": "A new front in the DEI fight",
+        "paragraphs": [
+          "WASHINGTON — The Treasury Department and the IRS have proposed a new rule that would strip tax-exempt status from private schools and colleges that give students targeted help based on their race, a significant expansion of the administration's campaign against diversity, equity and inclusion programs in American education.",
+          "Treasury Secretary Scott Bessent announced the proposal, saying institutions that continue race-based practices should expect to lose the tax benefits that have underpinned American higher education for more than a century. He argued that rebranding race-conscious policies as equity or diversity initiatives does not change what he described as their discriminatory nature."
+        ]
+      },
+      {
+        "id": "how-the-rule-would-work",
+        "heading": "How the rule would work",
+        "paragraphs": [
+          "The regulation, proposed on September 3 and set to take effect after May 2027 if finalized, would apply broadly to any private educational institution — from elementary schools through universities and trade schools — that runs programs benefiting students because of their race in admissions, scholarships or campus facilities. Treasury and IRS officials estimate the change could touch as many as 18,000 private schools, colleges and other education institutions nationwide.",
+          "Losing tax-exempt status would be a significant financial blow. The designation currently saves many schools and universities millions of dollars a year and makes donations to them tax-deductible for donors, a benefit that has helped fuel endowment growth at elite private universities for generations. The proposed rule does carve out an exception for schools that select students based on religion."
+        ]
+      },
+      {
+        "id": "reaction-from-campuses",
+        "heading": "Reaction from campuses",
+        "paragraphs": [
+          "Higher education leaders were quick to criticize the plan. Advocacy groups representing colleges and universities described it as an attack aimed at making it harder for low-income students and students of color to access higher education, arguing that many of the targeted programs are designed to support first-generation college students, including scholarships and mentoring programs that have existed for decades.",
+          "The move follows a long-running pressure campaign by the administration against elite universities it has accused of fostering excessive progressive politics. Trump previously threatened to strip Harvard University's tax-exempt status during an earlier standoff with the school, a threat Harvard officials said at the time had no legal basis. Wesleyan University's president has also spoken publicly in defense of programs the new rule could affect, saying diversity remains central to the school's mission."
+        ]
+      },
+      {
+        "id": "what-happens-next",
+        "heading": "What happens next",
+        "paragraphs": [
+          "As a proposed regulation rather than a final rule, the change now enters a public comment period before Treasury and the IRS can finalize it, a process that typically takes months and often draws legal challenges from advocacy groups on both sides of the issue. Given the scale of the proposal, education law experts expect court fights well before the rule's planned 2027 effective date.",
+          "For now, schools are left assessing how their existing scholarship, mentoring and admissions programs might need to change to preserve their tax status, while civil rights groups prepare for a legal fight that could ultimately reach the Supreme Court, which has already reshaped the landscape of race-conscious admissions in recent years."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nepal-china-flood-death-toll-1300",
+    "title": "Nepal-China Flood Death Toll Passes 1,300",
+    "dek": "A glacial collapse triggered floods that have killed more than 1,300 people in Nepal and China, with thousands still missing after 12 days.",
+    "category": "world",
+    "author": "amara-desai",
+    "published": "2026-09-06",
+    "updated": "2026-09-07",
+    "readingTime": "4 min read",
+    "image": "../images/nepal-china-flood-death-toll-1300.webp",
+    "imageAlt": "Himalayan mountains with a river valley below",
+    "featured": true,
+    "takeaways": [
+      "A Himalayan glacier collapse triggered flash floods that have killed more than 1,300 people across the Nepal-China border.",
+      "Hundreds of hydropower workers were trapped in flooded tunnels along the Trishuli River.",
+      "Nepal has requested international help with body identification and mapping the disaster zone."
+    ],
+    "body": [
+      {
+        "id": "a-glacier-collapses",
+        "heading": "A glacier collapses",
+        "paragraphs": [
+          "KATHMANDU — Twelve days after a Himalayan glacier collapsed and unleashed catastrophic flash floods across the Nepal-China border, the confirmed death toll has climbed past 1,300, with more than 5,000 people still unaccounted for on both sides of the frontier. It ranks among the deadliest natural disasters to strike the region in decades, overwhelming towns, hydropower plants and border infrastructure in Nepal's Rasuwa district and neighboring Gyirong county in China's Tibet region.",
+          "Nepal's National Disaster Risk Reduction and Management Authority says rescuers have recovered more than 1,340 bodies and are still searching for roughly 5,000 people. In China, authorities have confirmed 43 deaths and around 519 people missing. Among the missing are hundreds of foreign nationals, including workers, tourists and at least one executive from an Indian technology firm."
+        ]
+      },
+      {
+        "id": "a-cross-border-catastrophe",
+        "heading": "A cross-border catastrophe",
+        "paragraphs": [
+          "Investigators say the disaster began when a large section of glacier broke off a mountain slope and plunged into a river, triggering flash floods and mudslides that swept downstream with little warning. A report released in the days afterward found the glacier had shown visible signs of instability before it gave way, raising questions about whether the collapse could have been anticipated and communities warned sooner.",
+          "Chinese authorities later warned that a barrier lake formed by the initial landslide was at risk of bursting its banks and causing a second wave of flooding, forcing rescue teams to pause and reassess conditions upstream before resuming search efforts. The threat has since eased, but it briefly complicated an already difficult recovery effort in terrain where roads, bridges and communication lines were wiped out."
+        ]
+      },
+      {
+        "id": "the-hydropower-trap",
+        "heading": "The hydropower trap",
+        "paragraphs": [
+          "Some of the worst losses have centered on hydropower facilities along the Trishuli River, where hundreds of workers were trapped when floodwaters encased tunnels and buildings in mud. Around 900 workers were reported missing at one point, roughly two-thirds of them at a single hydropower project, according to Nepal's army. Rescuers say the underground tunnels stretch for kilometers, meaning any survivors could be trapped far from an entrance.",
+          "The search has produced rare moments of hope: ten days after the flooding, rescuers pulled a Chinese national alive from one hydropower tunnel, and a 60-year-old woman was later rescued from a building in Nepal's Nuwakot district. Officials say rooms and stored supplies inside some tunnels could theoretically sustain trapped workers for a period of time, though a shortage of breathable air remains a serious concern the longer the search continues."
+        ]
+      },
+      {
+        "id": "a-region-still-searching",
+        "heading": "A region still searching",
+        "paragraphs": [
+          "Nepal has asked for international help managing the scale of the tragedy, requesting refrigeration units, DNA testing kits and remote-sensing technology to identify bodies and map the disaster zone. China, South Korea and India have all sent search-and-rescue teams to assist. The United Nations says contact still has not been reestablished with some of the hardest-hit areas, complicating efforts to get an accurate count of the missing.",
+          "Nepal's foreign minister has said the government remains focused on saving lives rather than shifting to pure recovery operations, even under nearly two weeks of searching. With the monsoon season not yet over and damaged infrastructure still blocking many roads, officials on both sides of the border say it could be weeks before a final toll is known."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "xi-jinping-egypt-visit-decade",
+    "title": "Xi Jinping Makes First Egypt Visit in a Decade",
+    "dek": "Chinese leader Xi Jinping visited Cairo for the first time in ten years, deepening ties as Egypt hedges between Washington and Beijing.",
+    "category": "world",
+    "author": "tariq-mansour",
+    "published": "2026-09-03",
+    "updated": "2026-09-04",
+    "readingTime": "4 min read",
+    "image": "../images/xi-jinping-egypt-visit-decade.webp",
+    "imageAlt": "The pyramids of Giza near Cairo, Egypt at sunset",
+    "featured": false,
+    "takeaways": [
+      "Xi Jinping's three-day Cairo visit marked his first trip to Egypt in a decade and 70 years of China-Egypt diplomatic ties.",
+      "China has invested more than $10 billion in Egyptian infrastructure in recent years.",
+      "The visit comes as Egypt hedges between its ties to Washington and a deepening relationship with Beijing."
+    ],
+    "body": [
+      {
+        "id": "a-rare-visit-to-cairo",
+        "heading": "A rare visit to Cairo",
+        "paragraphs": [
+          "CAIRO — Chinese President Xi Jinping arrived in Egypt this week for his first visit to the country in a decade, a trip that underscores Beijing's growing ambitions in the Middle East at a moment when U.S. influence in the region has been strained by its war with Iran. Xi was welcomed at Cairo's airport with a red-carpet ceremony and a 21-gun salute, before holding talks with Egyptian President Abdel Fattah el-Sisi at the Ittihadiya presidential palace.",
+          "The visit, Xi's first trip to the wider region since a 2022 stop in Saudi Arabia, marked 70 years of diplomatic relations between the two countries. Both leaders published opinion pieces in Egypt's state-run newspapers ahead of the visit, and Xi traveled with his wife, Peng Liyuan, spending part of the three-day trip touring the Grand Egyptian Museum near the pyramids of Giza."
+        ]
+      },
+      {
+        "id": "reshaping-regional-alliances",
+        "heading": "Reshaping regional alliances",
+        "paragraphs": [
+          "Analysts say the trip fits a broader pattern of Middle Eastern governments hedging their bets as U.S.-Israel military action against Iran disrupts regional trade and security arrangements. Egypt has described its outreach to Beijing as part of an independent foreign policy, seeking to diversify its alliances even as it maintains its long-standing security and economic relationship with Washington.",
+          "During his talks with el-Sisi, Xi called on Middle Eastern countries to resist outside interference and consider reshaping the region's security arrangements, remarks widely read as a veiled reference to the U.S. role in the region. China previously brokered a 2023 deal restoring diplomatic ties between Iran and Saudi Arabia, a move that signaled Beijing's ambition to compete with Washington for influence across the Middle East."
+        ]
+      },
+      {
+        "id": "economic-ties-deepen",
+        "heading": "Economic ties deepen",
+        "paragraphs": [
+          "Trade and investment featured heavily in the visit's agenda. Egyptian government data shows the country's exports to China nearly tripled in the first half of 2026 to about $840 million, though imports from China remain far larger, at roughly $10.4 billion. Beijing has invested more than $10 billion in Egypt in recent years, including funding tied to Egypt's New Administrative Capital east of Cairo and an electric rail line serving industrial areas in the Nile Delta.",
+          "Egypt's control of the Suez Canal has taken on added strategic weight as shipping through the Strait of Hormuz has been disrupted by the conflict involving Iran, giving China another reason to court closer ties with Cairo. A Middle East analyst based in Jakarta said Beijing has clear incentives to strengthen relationships with the country that controls one of the few reliable alternative routes for energy shipments leaving the region."
+        ]
+      },
+      {
+        "id": "a-message-about-outside-powers",
+        "heading": "A message about outside powers",
+        "paragraphs": [
+          "For Egypt, the calculus is different: closer ties with China offer investment and diplomatic options without requiring a break from Washington, which remains Cairo's dominant security partner and a major source of military aid. El-Sisi has visited China multiple times in recent years, and officials on both sides describe the relationship as complementary rather than a replacement for Egypt's Western partnerships.",
+          "Still, the optics of the visit — a rare state trip by Xi to the region, timed to a moment of visible strain in U.S. relationships across the Middle East — were hard to miss. Diplomats in the region say the trip is likely to be read in Washington as a reminder that China is positioning itself as an alternative partner for countries looking to hedge against American unpredictability."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nato-eu-warn-russia-reckless-leipzig",
+    "title": "NATO and EU Warn Russia Growing More Reckless",
+    "dek": "NATO and EU leaders say Russia is growing more reckless after accusing Moscow of a foiled attack on cargo planes at a German airport.",
+    "category": "world",
+    "author": "greta-lindqvist",
+    "published": "2026-09-02",
+    "updated": "2026-09-07",
+    "readingTime": "4 min read",
+    "image": "../images/nato-eu-warn-russia-reckless-leipzig.webp",
+    "imageAlt": "The European Union and NATO flags flying together",
+    "featured": false,
+    "takeaways": [
+      "NATO's Mark Rutte and the EU's Ursula von der Leyen jointly warned Russia is becoming increasingly reckless toward alliance territory.",
+      "Germany identified Russia as behind an attempted attack on cargo planes at Leipzig/Halle Airport.",
+      "Officials cited rising drone and missile incursions along NATO's eastern flank and sabotage at defense factories."
+    ],
+    "body": [
+      {
+        "id": "a-joint-warning-from-brussels",
+        "heading": "A joint warning from Brussels",
+        "paragraphs": [
+          "BRUSSELS — NATO Secretary-General Mark Rutte and European Commission President Ursula von der Leyen delivered a joint warning this week that Russia is becoming increasingly reckless toward NATO and European Union territory, pointing to a rise in drones and missiles crossing allied airspace and a foiled plot to attack cargo planes at a German airport.",
+          "The two leaders held a joint news conference in Brussels after Germany's government formally identified Russia as being behind an attempt to attack cargo aircraft at Leipzig/Halle Airport using military-grade material. Von der Leyen called it an attack carried out by Russian operatives on European Union soil and said the bloc would not tolerate it."
+        ]
+      },
+      {
+        "id": "the-leipzig-incident",
+        "heading": "The Leipzig incident",
+        "paragraphs": [
+          "Officials say the Leipzig plot, had it succeeded, could have caused significant damage and potential loss of life. Von der Leyen described the incident as a new escalation on European soil directly attributed to Russia, distinct from the broader hybrid campaign of sabotage and interference that European officials say Moscow has waged against the continent throughout its war in Ukraine.",
+          "Rutte said Russia's stepped-up activity along NATO's eastern flank includes drones and missiles that have repeatedly crossed into allied airspace, creating what he called increased risk for member states bordering Russia and Belarus. He also pointed to a series of suspicious fires at factories that produce defense equipment for Ukraine, which officials believe are tied to a coordinated Russian sabotage effort."
+        ]
+      },
+      {
+        "id": "a-pattern-of-hybrid-attacks",
+        "heading": "A pattern of hybrid attacks",
+        "paragraphs": [
+          "The warning comes amid a broader string of incidents that European officials have linked to Russia in recent months, including airspace incursions over Baltic and Eastern European states and interference with critical infrastructure. Von der Leyen said Europeans now face a hard truth that this kind of activity has become the new normal and that everyday infrastructure needs to be protected as though it were a frontline target.",
+          "Both leaders rejected the idea that Russia's actions could divide NATO allies or weaken Western support for Ukraine, framing the Leipzig incident instead as evidence that pressure campaigns aimed at intimidating Europe would backfire. Von der Leyen said the episode had only strengthened her resolve to keep backing Kyiv."
+        ]
+      },
+      {
+        "id": "what-europe-says-comes-next",
+        "heading": "What Europe says comes next",
+        "paragraphs": [
+          "Von der Leyen pointed to the EU's existing Rapid Response Teams, designed to respond quickly to hybrid-style attacks whether they occur inside or outside the bloc's borders, as one tool Europe intends to lean on more heavily going forward. She also said the EU would continue using economic pressure, including sanctions that officials say have already weakened Russia's economy, as part of its broader deterrence strategy.",
+          "NATO officials say they are working around the clock with EU counterparts to protect civilian populations from further incidents, though neither Rutte nor von der Leyen laid out specific new military measures during the news conference. The episode is likely to add urgency to upcoming discussions among NATO members about further strengthening air defenses along the alliance's eastern border."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "afd-wins-record-vote-saxony-anhalt",
+    "title": "Far-Right AfD Wins Record Vote in German State",
+    "dek": "Germany's far-right AfD won 44% of the vote in Saxony-Anhalt, its best-ever result, but fell just short of an outright majority.",
+    "category": "world",
+    "author": "hannes-brandt",
+    "published": "2026-09-06",
+    "updated": "2026-09-07",
+    "readingTime": "4 min read",
+    "image": "../images/afd-wins-record-vote-saxony-anhalt.webp",
+    "imageAlt": "The German Reichstag building under a cloudy sky",
+    "featured": false,
+    "takeaways": [
+      "The AfD won a record 43.8% of the vote in Saxony-Anhalt's state election, its strongest-ever result.",
+      "The party fell three seats short of an outright majority in the 83-seat state parliament.",
+      "The result is a major setback for Chancellor Friedrich Merz's Christian Democrats ahead of more state elections this fall."
+    ],
+    "body": [
+      {
+        "id": "a-historic-breakthrough",
+        "heading": "A historic breakthrough",
+        "paragraphs": [
+          "BERLIN — Germany's far-right Alternative for Germany party won a record 43.8% of the vote in Sunday's state election in Saxony-Anhalt, its strongest performance ever in a German state election and the closest a far-right party has come to governing a German state since the end of World War II.",
+          "The result gave the AfD 39 of 83 seats in the state parliament, just three short of the 42 needed for an outright majority. The party more than doubled its previous share of the vote from 2021, while the governing Christian Democratic Union, led nationally by Chancellor Friedrich Merz, collapsed to just 17.2%, roughly half its previous result and its worst-ever showing in the state."
+        ]
+      },
+      {
+        "id": "how-close-afd-came-to-power",
+        "heading": "How close the AfD came to power",
+        "paragraphs": [
+          "With a majority narrowly out of reach, the AfD's path to actually governing Saxony-Anhalt would likely require a coalition, potentially with the smaller Sahra Wagenknecht Alliance, a left-leaning populist party that cleared the 5% threshold needed to enter parliament. The AfD has signaled it is not interested in such a deal, meaning it is not yet clear whether the party will be able to translate its vote share into actual power in the state.",
+          "Turnout hit a record 77.8%, up sharply from 60% in the previous election, suggesting the AfD drew significant support from voters who had previously stayed home. Ulrich Siegmund, the party's 35-year-old lead candidate and a former marketing executive, is widely credited with running an energetic, social-media-savvy campaign that presented the party's positions in an upbeat, accessible style unusual for the AfD."
+        ]
+      },
+      {
+        "id": "a-blow-to-merz",
+        "heading": "A blow to Merz",
+        "paragraphs": [
+          "The result lands as a serious political setback for Chancellor Merz, whose approval ratings have slipped as his coalition government struggles to revive growth in Europe's largest economy. Merz made no public statement on the results Sunday night, leaving the party's headquarters after 10 p.m. local time without addressing reporters.",
+          "AfD co-leader Alice Weidel used the results to predict Merz's removal and new federal elections before the end of the year, telling German broadcaster ZDF that the CDU will never win another election and that her party is experiencing explosive growth nationwide. Party officials also renewed calls for mainstream parties to abandon their long-standing refusal to govern alongside the AfD, a policy known in Germany as the political firewall."
+        ]
+      },
+      {
+        "id": "what-it-signals-nationally",
+        "heading": "What it signals nationally",
+        "paragraphs": [
+          "Saxony-Anhalt's domestic intelligence agency classifies the state AfD branch as a confirmed right-wing extremist organization, a designation the party disputes as politically motivated. The party opposes further military aid to Ukraine, has called for mass deportations of migrants, and party officials have made repeated trips to Moscow and Russian-occupied Crimea, reflecting what critics describe as an openly pro-Russian stance.",
+          "Saxony-Anhalt is the first of several German state elections scheduled this fall, and Sunday's result is expected to be closely watched as a signal of the AfD's momentum heading into future votes. Analysts say the outcome will likely intensify debate within Germany's mainstream parties over whether the political firewall against the far right remains sustainable as the AfD's support keeps climbing."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "us-venezuela-oil-reserves-deal",
+    "title": "US Secures Majority Stake in Venezuela's Oil",
+    "dek": "The US struck a deal giving American-backed firms majority control of 65 billion barrels of Venezuela's oil reserves, eight months after Maduro's capture.",
+    "category": "world",
+    "author": "carlos-fernandez-vega",
+    "published": "2026-09-02",
+    "updated": "2026-09-05",
+    "readingTime": "4 min read",
+    "image": "../images/us-venezuela-oil-reserves-deal.webp",
+    "imageAlt": "Oil pumpjacks in a field at dusk",
+    "featured": false,
+    "takeaways": [
+      "The US and Venezuela signed a deal giving a US-backed venture majority control of 65 billion barrels of oil reserves.",
+      "The agreement follows the January capture of former President Nicolás Maduro by US special forces.",
+      "Democratic lawmakers and some analysts have criticized the deal as an oil grab enabled by military force."
+    ],
+    "body": [
+      {
+        "id": "a-historic-transaction",
+        "heading": "A historic transaction",
+        "paragraphs": [
+          "WASHINGTON — President Trump announced a sweeping deal this week giving American-backed interests majority control of more than 65 billion barrels of Venezuela's proven oil reserves, a transaction the White House is calling the largest oil deal in world history and one that comes eight months after U.S. special forces captured then-President Nicolás Maduro in a raid on Caracas.",
+          "The agreement grants control of reserves across 17 major oil fields — some previously held under concessions to Chinese and Russian companies — to a private venture called North American Blue Energy Partners, which is headquartered in Barbados. The White House says the deal, signed by Secretary of State Marco Rubio and Secretary of War Pete Hegseth, comes at no cost to American taxpayers and secures U.S. energy access for the next century."
+        ]
+      },
+      {
+        "id": "how-the-deal-came-together",
+        "heading": "How the deal came together",
+        "paragraphs": [
+          "The deal follows an eight-month transformation of Venezuela's political and economic landscape since Maduro's capture on January 3. His former deputy, Delcy Rodríguez, has served as interim president since then and has overseen a series of changes opening Venezuela's oil sector to foreign investment, including reforms to the country's hydrocarbons law and new permissions for U.S. and allied companies — explicitly excluding firms from China, Russia, Iran and North Korea — to operate in the country's oil fields.",
+          "U.S. Energy Secretary Chris Wright traveled to Caracas to formalize part of the arrangement, signing a separate agreement expanding Chevron's operations and production capacity in the country. Rodríguez has described the deal as central to Venezuela's economic revival, though she has given conflicting public statements about its length, at one point describing it as a 25-year arrangement even as U.S. officials describe a 100-year concession."
+        ]
+      },
+      {
+        "id": "who-controls-the-oil",
+        "heading": "Who controls the oil",
+        "paragraphs": [
+          "Beyond the private companies involved, the Pentagon has reportedly taken a significant ownership stake in North American Blue Energy Partners, giving the U.S. military a direct financial interest in a venture that, if successful, would control more crude reserves than ExxonMobil's entire global portfolio. The company's chief executive, Alejandro Betancourt, has previously faced scrutiny over past business dealings, according to reporting on the transaction.",
+          "U.S. officials say access to Venezuelan crude could help replenish American strategic reserves that have been strained by the country's ongoing tensions with Iran, and that increased supply could help ease gasoline prices ahead of the midterm elections. The average U.S. gas price stood at roughly $4.09 a gallon in late August, up sharply from a year earlier, according to AAA."
+        ]
+      },
+      {
+        "id": "critics-call-it-a-grab",
+        "heading": "Critics call it a grab",
+        "paragraphs": [
+          "The deal has drawn sharp criticism from Democratic lawmakers, including Maryland Sen. Chris Van Hollen, who has described the arrangement as a grab of Venezuelan oil that will primarily enrich private companies and the administration's allies rather than ordinary Venezuelans. Critics also point out that the deal followed a military operation that removed a sitting head of state, a precedent some foreign policy analysts say could complicate U.S. relationships elsewhere in Latin America.",
+          "The U.S. has outlined a three-phase plan it says is meant to stabilize Venezuela's economy, support its recovery and eventually lead to political reform, including a promised path toward new presidential elections. It remains unclear when those elections might take place or how quickly the oil agreement will translate into new production, and independent energy analysts caution that expanding output in Venezuela's aging, underinvested oil infrastructure will likely take years, not months."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apple-names-john-ternus-ceo-tim-cook-transition",
+    "title": "Apple Names John Ternus CEO as Tim Cook Steps Back",
+    "dek": "John Ternus, Apple's hardware chief, becomes CEO as Tim Cook moves to executive chairman after 15 years leading the company.",
+    "category": "business",
+    "author": "daniel-cho",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/apple-names-john-ternus-ceo-tim-cook-transition.webp",
+    "imageAlt": "A modern glass corporate campus building under a clear sky",
+    "featured": true,
+    "takeaways": [
+      "John Ternus, Apple's longtime hardware engineering chief, formally became CEO on September 1, ending Tim Cook's 15-year run.",
+      "Cook moves into the newly created role of executive chairman, keeping a hand in policy relationships in Washington and Beijing.",
+      "Ternus inherits Apple's most pressing challenge in years: catching up in generative AI while managing this month's iPhone launch."
+    ],
+    "body": [
+      {
+        "id": "leadership-handover",
+        "heading": "A new chief executive, a familiar face",
+        "paragraphs": [
+          "Apple changed hands at the top on September 1, when John Ternus, the engineer who had run hardware development for the iPhone, iPad, Mac, Apple Watch and Vision Pro, became the company's chief executive. Tim Cook, who had held the job since 2011, shifted into the newly created role of executive chairman of the board.",
+          "The move had been telegraphed months earlier. Apple's board approved the succession unanimously in mid-April and announced it publicly on April 20, saying Cook would stay on through the summer to help guide the handover. Ternus also joined Apple's board of directors as part of the arrangement, which took effect on the same day he took the CEO title."
+        ]
+      },
+      {
+        "id": "why-it-matters-now",
+        "heading": "The scale of what Ternus is inheriting",
+        "paragraphs": [
+          "Cook's tenure reshaped Apple's financial standing dramatically. Under his leadership, the company's market value climbed from roughly $350 billion to somewhere near $4.5 trillion, while annual revenue grew from about $108 billion to more than $400 billion. That growth was driven overwhelmingly by the iPhone, which remains Apple's core moneymaker more than a decade after Cook took over from Steve Jobs.",
+          "Ternus is not new to the company. He joined Apple's product design team in 2001 and steadily rose through the hardware organization, becoming vice president of hardware engineering in 2013 and senior vice president in 2021. Colleagues and analysts have generally described him as a product-first executive who understands Apple's engineering culture from the inside, rather than an outsider brought in to shake things up."
+        ]
+      },
+      {
+        "id": "the-ai-question",
+        "heading": "Artificial intelligence looms over the transition",
+        "paragraphs": [
+          "The handover lands at an awkward moment for Apple's technology roadmap. Rivals including Microsoft, Google and Nvidia have moved aggressively into generative AI, while Apple has struggled to deliver on features it promised nearly two years ago under the Apple Intelligence banner. A rebuilt version of Siri, now being overseen by software chief Craig Federighi alongside AI lead John Giannandrea's successor, remains a closely watched test of whether Apple can close that gap.",
+          "The leadership reshuffle extends beyond the CEO seat. Johny Srouji has taken on the title of chief hardware officer, Eddy Cue's services division has regained oversight of the App Store, and longtime marketing chief Phil Schiller has stepped back from App Store duties and public Apple events. Several other long-serving executives are also expected to depart in the coming months, adding to what amounts to the broadest reshuffling of Apple's senior ranks in years."
+        ]
+      },
+      {
+        "id": "what-comes-next",
+        "heading": "A public debut, then a foldable iPhone",
+        "paragraphs": [
+          "Ternus's first major public moment as CEO comes quickly: he is set to take the stage on September 9 for Apple's annual product event, where the company is expected to unveil new iPhone 18 Pro models alongside its first foldable iPhone. How he handles that presentation, and whether Apple's event style shifts now that stage responsibilities have moved under the communications team, will be an early signal of his approach.",
+          "Cook, meanwhile, is not disappearing from view. As executive chairman, he is expected to keep an active role in Apple's dealings with governments, including trade and regulatory discussions in Washington and Beijing, giving him more influence over policy matters than any previous Apple chairman has held. For now, the company's day-to-day direction, including its answer to the AI question, rests with Ternus.",
+          "Investors and analysts are treating the handover as low-drama by tech industry standards, given how long it had been signaled and how deeply embedded Ternus already is in Apple's product culture. Still, the coming months carry real stakes: beyond the foldable iPhone launch, Apple faces decisions on pricing, supply chains and its broader AI strategy that will shape how the Ternus era is ultimately judged. Analysts following the company say the first real test will not be the September event itself but whether Apple can show, over the following two or three product cycles, that it can close the gap with rivals on AI without losing the design-led identity that built its business in the first place."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jaguar-land-rover-to-cut-4000-jobs",
+    "title": "Jaguar Land Rover to Cut 4,000 Jobs in Overhaul",
+    "dek": "Britain's largest carmaker will cut about 10% of its global workforce over two years to save £1.7 billion amid Chinese competition and US tariffs.",
+    "category": "business",
+    "author": "priya-menon",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/jaguar-land-rover-to-cut-4000-jobs.webp",
+    "imageAlt": "Rows of finished vehicles lined up outside an automotive manufacturing plant",
+    "featured": false,
+    "takeaways": [
+      "Jaguar Land Rover confirmed plans to cut around 4,000 jobs globally over the next two years, roughly a tenth of its workforce.",
+      "The cuts, mostly voluntary and concentrated in office and managerial roles, aim to save £1.7 billion and lower the company's break-even point.",
+      "JLR is contending with Chinese EV competition, US tariffs and the fallout from a cyberattack that halted production last year."
+    ],
+    "body": [
+      {
+        "id": "the-announcement",
+        "heading": "Britain's biggest carmaker moves to cut costs",
+        "paragraphs": [
+          "Jaguar Land Rover confirmed on Monday that it will eliminate around 4,000 jobs across its global operations over the next two years, part of a plan to strip out £1.7 billion, or roughly $2.3 billion, in costs. The reductions amount to close to 10% of the company's total workforce and will be carried out mainly through voluntary redundancies.",
+          "Chief executive PB Balaji framed the move as a response to a rapidly shifting industry rather than a sign of crisis at the company itself, saying the transformation was meant to strengthen JLR's competitiveness and secure its long-term future. The company said the cuts would fall largely on salaried and managerial staff, a pool of about 26,000 employees, while factory floor workers are not expected to be targeted."
+        ]
+      },
+      {
+        "id": "the-pressures",
+        "heading": "China, tariffs and a lingering cyberattack",
+        "paragraphs": [
+          "JLR's troubles have been building for a while. The company, owned by India's Tata Motors, is still recovering from a major cyberattack last year that forced a lengthy halt to production, a disruption that hit both output and cash flow. Layered on top of that is intensifying competition from lower-priced Chinese electric vehicle makers, which have been steadily eating into sales of premium SUVs in markets JLR has long dominated.",
+          "US tariffs have added another squeeze, given America is JLR's largest single market. Balaji pointed to a combination of technological change, competitive pressure and geopolitical uncertainty as the backdrop for the restructuring, arguing that simplifying the organization and improving efficiency had become necessary rather than optional."
+        ]
+      },
+      {
+        "id": "the-numbers",
+        "heading": "What the savings are meant to fund",
+        "paragraphs": [
+          "JLR employs roughly 43,000 people worldwide, with about 34,000 of them in the UK spread across 17 sites, making the company a significant employer in Britain's industrial heartland. The savings from the job cuts are intended to help lower the company's break-even point to around 300,000 vehicles sold annually, giving it more room to absorb future downturns.",
+          "The freed-up cash is also earmarked for reinvestment: JLR said it plans to spend between £15 billion and £18 billion, or roughly $20 billion to $24 billion, over the next five years on electrification, digital technology and other strategic priorities. Shares in parent company Tata Motors dipped modestly on the news, though the stock remains up close to 10% for the year."
+        ]
+      },
+      {
+        "id": "political-fallout",
+        "heading": "No bailout, and a wider industry problem",
+        "paragraphs": [
+          "The scale of the cuts drew a swift political response. UK Business Secretary Jonathan Reynolds ruled out any government bailout for JLR after reports of the job losses surfaced over the weekend, though he has since spoken with Balaji and was set to meet company leadership this week. The episode adds pressure on Prime Minister Andy Burnham's government, which has already had to navigate cost-cutting announcements at other British luxury carmakers.",
+          "JLR is not alone. Aston Martin and Bentley have both announced their own cost-saving measures in recent months, underscoring how broadly the shift toward electrification, combined with cheaper Chinese competition, is reshaping Britain's premium auto sector. For now, JLR's leadership is betting that a leaner organization will position the company to compete on its own terms rather than simply survive the transition.",
+          "For workers, the coming months will likely bring a wave of uncertainty even though the reductions are structured as voluntary. Local union representatives in the West Midlands, where much of JLR's UK footprint is concentrated, have signaled they will be watching closely to make sure the process stays genuinely voluntary and does not tip into forced departures if not enough employees apply. The broader worry among trade groups is less about this single announcement and more about what it signals: that even a premium, relatively well-capitalized manufacturer is struggling to hold its ground against cheaper Chinese rivals, a pressure that smaller UK suppliers further down the automotive chain may be even less equipped to absorb."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "japan-foreign-reserves-record-drop-yen-intervention",
+    "title": "Japan's Reserves Post Record Drop After Yen Rescue",
+    "dek": "Tokyo's finance ministry says reserves fell $79.6 billion in August, the steepest monthly drop on record, after record intervention to defend the yen.",
+    "category": "business",
+    "author": "hana-fujimoto",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/japan-foreign-reserves-record-drop-yen-intervention.webp",
+    "imageAlt": "A busy financial district skyline reflected in a river at dusk",
+    "featured": false,
+    "takeaways": [
+      "Japan's foreign reserves dropped by a record $79.6 billion in August, the steepest monthly decline since records began in 2000.",
+      "The fall was driven by Tokyo's unprecedented spending to prop up the yen, which had sunk to a 40-year low against the dollar.",
+      "Japan drew on holdings of US Treasuries to fund the intervention, in a rare operation coordinated with Washington."
+    ],
+    "body": [
+      {
+        "id": "the-headline-number",
+        "heading": "A historic monthly decline",
+        "paragraphs": [
+          "Japan's Ministry of Finance reported on Monday that the country's foreign exchange reserves fell by $79.6 billion, or 6.18%, in August, taking the total down to roughly $1.207 trillion from $1.287 trillion in July. It was the steepest monthly drop since the ministry began tracking the data in 2000, and the fourth consecutive month of decline.",
+          "The ministry did not spell out the reason in its release, but a finance ministry official cited by Japanese outlet Kyodo News attributed the fall to currency intervention aimed at supporting the yen, along with a drop in the value of government bond holdings tied to rising global yields."
+        ]
+      },
+      {
+        "id": "why-tokyo-intervened",
+        "heading": "Defending a currency at 40-year lows",
+        "paragraphs": [
+          "The pressure on Japan's reserves traces directly back to the yen's slide earlier this year. The currency touched a 40-year low of nearly 164 per dollar on July 23, prompting authorities to step in aggressively. Between July 30 and August 26 alone, Japan spent about 15.4 trillion yen, or roughly $98.7 billion, buying yen and selling dollars, the largest single-month intervention the country has ever carried out.",
+          "That followed earlier rounds of buying worth around 11.7 trillion yen in April and May. Taken together, Japan's interventions so far this year total about 27.1 trillion yen, comfortably surpassing the previous annual record of 20.4 trillion yen set back in 2003. The spending appears to have had the intended effect, at least for now: the yen has strengthened back to around 156 per dollar."
+        ]
+      },
+      {
+        "id": "a-rare-us-partnership",
+        "heading": "Washington joins in, for the first time in decades",
+        "paragraphs": [
+          "What made the late-July intervention especially notable was Washington's direct involvement. The United States supplemented Japan's yen-buying by selling euros to help support the currency, marking the first coordinated intervention between the two countries in roughly two decades. Analysts described it as a signal of how seriously both governments now view yen weakness as a shared economic risk rather than a purely domestic Japanese problem.",
+          "Since the bulk of Japan's reserves are held in foreign securities, mostly US Treasury bonds accumulated during earlier rounds of intervention, funding this year's operations required liquidating a significant chunk of those holdings. That, in turn, contributed to the drop in Japan's total reserve figure beyond just the direct cost of the currency purchases."
+        ]
+      },
+      {
+        "id": "what-it-means",
+        "heading": "Policy choice, not financial distress",
+        "paragraphs": [
+          "Market strategists have been quick to frame the reserve decline as a deliberate policy choice rather than a warning sign about Japan's finances. Masahiko Loo, a senior fixed income strategist at State Street Investment Management, said the drop mainly reflects Tokyo's dollar-selling, yen-buying operations rather than any underlying financial stress, and that the move should be read as policy action rather than a red flag for investors.",
+          "Even so, the scale of the intervention highlights how expensive it has become for Japan to manage its currency amid a global environment of elevated bond yields. With reserves still comfortably above $1.2 trillion, Tokyo retains plenty of firepower, but the pace of this year's spending suggests policymakers may need to keep intervening if pressure on the yen resumes.",
+          "The episode also carries implications well beyond Japan's own balance sheet. Because Japan is the largest single foreign holder of US government debt, any large-scale selling of Treasuries to fund currency operations feeds into the same global bond market that is already grappling with heavy issuance from Washington and corporations alike. Some strategists have pointed out that a weaker yen and rising US yields have effectively been reinforcing each other this year, making it harder for either country's policymakers to address their currency and debt pressures in isolation. That interconnected dynamic is likely to keep both the yen and the pace of Japanese intervention on investors' radar well into the autumn."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "oil-prices-surge-iran-us-conflict-saudi-aramco",
+    "title": "Oil Prices Hit Six-Week High on Iran-US Clashes",
+    "dek": "Brent crude neared $98 a barrel after the US and Iran traded strikes and Saudi Aramco facilities were reportedly hit again over the weekend.",
+    "category": "business",
+    "author": "marcus-obi",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/oil-prices-surge-iran-us-conflict-saudi-aramco.webp",
+    "imageAlt": "An oil tanker at sea near an industrial port at sunset",
+    "featured": false,
+    "takeaways": [
+      "Brent crude rose to about $98 a barrel and WTI neared $93, both six-week highs, after a weekend of US-Iran military strikes.",
+      "Saudi Aramco's Jizan refinery was reportedly struck for the second time in a month, adding to fears of wider supply disruption.",
+      "Traffic through the Strait of Hormuz has slowed to its lowest pace since May, and Goldman Sachs has floated $120 oil if attacks spread."
+    ],
+    "body": [
+      {
+        "id": "prices-jump",
+        "heading": "Crude climbs on a weekend of escalation",
+        "paragraphs": [
+          "Oil prices jumped to their highest level in six weeks on Monday as fresh fighting between the United States and Iran rattled energy markets. Brent crude, the international benchmark, rose more than 1% to trade near $97.5 a barrel, briefly touching almost $98, its strongest level since late July. US benchmark West Texas Intermediate climbed to around $92.7 to $93, also its highest point in roughly six weeks.",
+          "The rally followed a sharp escalation over the weekend. US forces struck three Iranian oil tankers, which the Pentagon linked to a network funding Iran's Revolutionary Guard, and Iran responded by launching ballistic missiles at two US Navy warships. Iran's Revolutionary Guard also said it had hit several tankers, including vessels connected to the US, in a separate round of strikes."
+        ]
+      },
+      {
+        "id": "aramco-hit",
+        "heading": "Saudi Aramco facilities targeted again",
+        "paragraphs": [
+          "Adding to the tension, the Financial Times reported that Saudi Aramco's Jizan refinery, which processes around 400,000 barrels of oil a day, was struck on Monday for the second time in the past month. The extent of the damage was still being assessed, and it was not immediately clear who carried out the attack, but the strike underscored how the conflict is increasingly touching Saudi infrastructure rather than staying contained to Iranian and US assets.",
+          "Iran, for its part, said it intended to strike energy infrastructure across the wider Middle East in response to continued US attacks, a threat that has kept traders on edge about the possibility of a broader regional supply shock rather than a contained bilateral conflict."
+        ]
+      },
+      {
+        "id": "supply-strain",
+        "heading": "A conflict that has already reshaped the market",
+        "paragraphs": [
+          "The fighting, which passed the six-month mark in August, has already taken a visible toll on global supply. Brent rose about 8% and WTI nearly 10% in the week before Monday's gains, as the US and Iran resumed hostilities after a brief lull. Shipping data from analytics firm Kpler showed that only around 10 commodity vessels a day passed through the Strait of Hormuz over the prior ten days, the slowest pace since May.",
+          "In the US, the world's largest oil producer and consumer, inventories of gasoline and distillate fuel have fallen well below both year-ago and five-year seasonal averages, according to analysts at PVM Energy, who described current conditions as more strained than just a few weeks earlier."
+        ]
+      },
+      {
+        "id": "how-high",
+        "heading": "How much further prices could climb",
+        "paragraphs": [
+          "Goldman Sachs analysts have warned that oil could rally as high as $120 a barrel if attacks on shipping continue to escalate, a scenario that would mark a significant jump from current levels and ripple through everything from airline fuel costs to household gasoline prices. Energy Secretary Chris Wright said the US intends to maintain its naval presence and blockade posture in the region for the foreseeable future.",
+          "There were small signs of de-escalation elsewhere: Iran was reportedly close to agreeing on a safer tanker route through the Strait of Hormuz with Oman. But with Israeli strikes in southern Lebanon killing at least a dozen people on the same day, and both Washington and Tehran showing little appetite to back down, traders are treating the current price surge as a reflection of a conflict that shows no clear signs of ending soon.",
+          "For everyday consumers, the practical effect has already shown up at the pump. Gasoline and diesel prices in the US hit record highs for a Labor Day weekend this year, according to industry trackers, and further increases are likely if crude stays elevated. Airlines and shipping companies, which are especially sensitive to fuel costs, are also watching the situation closely, with several carriers reportedly reviewing fuel surcharges in case the conflict drags into the autumn travel season. Analysts caution that even a partial de-escalation, such as a tanker-route agreement between Iran and Oman, would likely only stabilize prices rather than reverse the gains of the past several weeks, given how much of the current premium reflects genuine supply disruption rather than speculative positioning."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "treasury-yields-fiscal-risk-4-8-percent-threshold",
+    "title": "US Treasury Yields Near Critical 4.8% Threshold",
+    "dek": "Rising government debt and record corporate borrowing are pushing 10-year yields toward a level analysts warn could ripple across stocks and credit.",
+    "category": "business",
+    "author": "sofia-reyes",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/treasury-yields-fiscal-risk-4-8-percent-threshold.webp",
+    "imageAlt": "A stock ticker display showing financial market data",
+    "featured": false,
+    "takeaways": [
+      "The 10-year Treasury yield has climbed toward 4.8%, close to its highest level since January 2025, as fiscal and inflation worries build.",
+      "US government debt has topped $40 trillion, with more than $8.4 trillion in securities due to roll over by year-end alongside record corporate bond issuance.",
+      "Strategists warn a sustained break above 4.8%, and eventually 5%, could pressure stocks and raise borrowing costs for AI-related corporate debt."
+    ],
+    "body": [
+      {
+        "id": "the-threshold",
+        "heading": "Yields creep toward a closely watched line",
+        "paragraphs": [
+          "The yield on the 10-year US Treasury note has been grinding higher, closing last week near 4.78% and drawing close to the 4.8% level that market strategists have flagged as a potential turning point. Analysts at Miller Tabak have said a sustained move above that mark could create meaningful problems for other asset classes, from equities to corporate credit, as the safe-haven benchmark becomes more expensive to borrow against.",
+          "The move came as investors digested a stronger-than-expected August jobs report, which fed expectations that the Federal Reserve might raise rates rather than cut them at its September 15-16 meeting. Shorter-dated yields moved in tandem, with the 2-year Treasury note briefly touching its highest level since January 2025."
+        ]
+      },
+      {
+        "id": "the-supply-problem",
+        "heading": "A flood of debt hitting the market at once",
+        "paragraphs": [
+          "Underlying the pressure on yields is a straightforward supply problem. Total US government debt has climbed past $40 trillion, and more than $8.4 trillion of Treasury securities are scheduled to roll over between now and the end of the year. At the same time, corporations are competing for the same pool of investor capital: September could set a record for high-grade corporate bond issuance, with Goldman Sachs recently raising its full-year forecast for investment-grade dollar issuance to $2.3 trillion.",
+          "Matt Maley, chief market strategist at Miller Tabak, said the growing difficulty of calming markets through statements alone, without addressing the underlying fiscal picture, is becoming harder to ignore. He noted that even a short-term rally in Treasuries would not resolve the longer-run imbalance without meaningful changes to federal spending and borrowing."
+        ]
+      },
+      {
+        "id": "inflation-and-the-fed",
+        "heading": "Inflation adds another layer of pressure",
+        "paragraphs": [
+          "The fiscal strain is compounding, rather than replacing, worries about inflation. Federal Reserve Governor Christopher Waller said at a recent public event that inflation remains meaningfully above the central bank's 2% target, and that stronger-than-expected price data could justify another rate increase this month. That combination, elevated inflation alongside a heavy borrowing calendar, has left the bond market unusually sensitive to each new piece of economic data.",
+          "The Congressional Budget Office's longer-term projections underscore why investors are on edge. The federal deficit is projected to reach $1.9 trillion in fiscal 2026, equal to 5.8% of GDP, while debt held by the public is expected to reach 101% of GDP this year and climb toward 120% by 2036. Net interest costs alone are projected to more than double over that period, from roughly 3.3% of GDP today to 4.6% by 2036."
+        ]
+      },
+      {
+        "id": "who-feels-it",
+        "heading": "Why this matters beyond the bond market",
+        "paragraphs": [
+          "Higher long-term yields have consequences well beyond government financing. HSBC has raised its end-2026 forecast for the 10-year yield to 4.65% from 4.30%, citing both a higher structural floor for long-term rates and a more hawkish outlook for monetary policy, and the bank has turned more cautious on long-dated bonds across developed markets generally, not just in the US.",
+          "The pain is likely to be felt most acutely by capital-intensive borrowers, particularly technology companies that have issued record amounts of debt to fund AI infrastructure and data centers. Rising yields push up the cost of that borrowing and increase the discount rate applied to future profits, a dynamic that could make some of the industry's most ambitious AI buildouts considerably more expensive to finance in the months ahead.",
+          "Ordinary households are not immune either. The 10-year yield serves as the benchmark for most fixed-rate mortgages in the US, meaning sustained moves toward 5% would likely keep home borrowing costs elevated even if the Fed eventually pivots toward rate cuts elsewhere. Auto loans and credit card rates tend to follow a similar pattern. Some market participants argue that stretched short-term positioning could still trigger a temporary rally in Treasuries, easing yields for a few weeks. But strategists including Maley maintain that any such relief would be tactical rather than a genuine resolution, since the deeper issue, a widening gap between what the federal government needs to borrow and the pool of investors willing to absorb it at current rates, is not something a single strong auction or a dovish Fed meeting can fix on its own."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bitcoin-gold-fall-hot-jobs-report-fed-rate-hike-odds",
+    "title": "Bitcoin and Gold Slide as Fed Rate-Hike Odds Jump",
+    "dek": "A blowout August jobs report pushed the odds of a September Fed rate hike toward 60%, dragging down bitcoin, gold and crypto-linked stocks.",
+    "category": "finance",
+    "author": "marcus-obi",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/bitcoin-gold-fall-hot-jobs-report-fed-rate-hike-odds.webp",
+    "imageAlt": "Digital candlestick trading charts displayed on a dark screen",
+    "featured": true,
+    "takeaways": [
+      "August payrolls tripled forecasts, pushing traders' estimate of a September Fed rate hike to around 58% to 60%.",
+      "Bitcoin fell roughly 3% and gold dropped about 2% within hours of the report, while crypto-linked stocks sank around 5%.",
+      "Gold clawed back some losses on lingering geopolitical demand, while bitcoin stayed closer to its lows, highlighting how differently the two assets are trading this year."
+    ],
+    "body": [
+      {
+        "id": "the-selloff",
+        "heading": "A jobs number that rattled multiple markets at once",
+        "paragraphs": [
+          "Bitcoin, gold and a swath of crypto-related stocks all dropped within minutes of Friday's US jobs report, as traders concluded the surprisingly strong data made a Federal Reserve rate hike this month more likely. The Labor Department said employers added 162,000 jobs in August, nearly triple the 53,000 economists had forecast, while the unemployment rate held steady at 4.1% and both June and July's readings were revised higher.",
+          "Bitcoin, which had climbed as high as $82,240 earlier in the session on hopes the Fed would hold rates steady, gave back those gains and fell more than 2% to trade near $79,300 within minutes of the release. Broader crypto-linked equities fell around 5% on the day, and the Dow Jones Industrial Average dropped 226 points, or 0.4%, while the S&P 500 slipped 0.2%."
+        ]
+      },
+      {
+        "id": "why-it-happened",
+        "heading": "The mechanical link between jobs data and asset prices",
+        "paragraphs": [
+          "The reaction reflects a fairly direct chain of logic that traders lean on when strong labor data lands. A hotter jobs report makes a rate hike more likely, and higher rates make holding cash or Treasuries relatively more attractive compared with assets that pay no yield, such as bitcoin and gold. Higher rates also tend to strengthen the dollar, which further pressures dollar-priced assets like both of those.",
+          "Fed funds futures moved quickly after the release, with the CME FedWatch Tool showing the implied probability of a rate hike at the Fed's mid-September meeting climbing to about 58% to 60%, up from roughly 52% before the report. That shift came just a day after Fed Governor Christopher Waller had suggested he was inclined to support holding rates steady, comments that had briefly pushed bitcoin toward a four-month high before the jobs data reversed the move."
+        ]
+      },
+      {
+        "id": "gold-vs-bitcoin",
+        "heading": "Two 'hedge' assets, two different reactions",
+        "paragraphs": [
+          "Gold's initial drop was sharp, falling from around $4,469 an ounce to as low as $4,376, a decline of roughly 2.1%, before recovering part of that loss to trade near $4,419, down about 1.2% on the day. Bitcoin, by contrast, stayed much closer to its post-report lows, a divergence that market watchers say reveals something about how the two assets are actually behaving in 2026 rather than how they are often marketed.",
+          "Gold appears to be benefiting from more than one source of demand at once. Even as higher rates and a stronger dollar weigh on the metal, continued geopolitical tension, including the ongoing conflict between the US and Iran, has kept a floor under prices by supporting safe-haven buying. Bitcoin has not shown the same offsetting support, and traders describe it as considerably more sensitive to shifts in liquidity conditions and general risk appetite than to any standalone hedge narrative."
+        ]
+      },
+      {
+        "id": "how-solid-are-the-odds",
+        "heading": "A rate hike remains a possibility, not a certainty",
+        "paragraphs": [
+          "Some analysts caution against reading too much into the size of Friday's market moves. Even though implied rate-hike odds ticked up to around 58%, that figure is close to where it stood a week earlier, in the aftermath of Fed Chair Kevin Warsh's hawkish remarks at the Jackson Hole conference. In other words, traders with real money at stake had not dramatically changed their outlook, even though asset prices swung sharply on the headline.",
+          "Attention is now shifting to inflation data due out on September 11, which many traders see as the more decisive input ahead of the Fed's meeting later in the month. Goldman Sachs has separately argued that markets remain too hawkish given softer retail sales and a gradually cooling labor market over recent months, suggesting the debate over whether the Fed hikes, holds, or eventually cuts is likely to keep driving volatility in both crypto and precious metals in the weeks ahead.",
+          "President Trump added another layer to the story, calling for lower rates on social media within hours of the jobs report's release, a pointed reminder that the Fed's decision carries political weight well beyond trading desks. For everyday investors, the whipsaw in bitcoin and gold prices over a single trading session underscores a broader theme that has defined markets for much of 2026: even modest surprises in economic data can trigger outsized moves in assets that traders have come to treat as barometers for where interest rates, and the dollar, are headed next."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "spacex-stock-decline-index-fund-buying-lockup",
+    "title": "SpaceX Stock Sinks as Index Funds Are Forced to Buy",
+    "dek": "SpaceX shares are down more than a third from their June peak, yet index funds must add more of the stock as insider lockups expire and its float grows.",
+    "category": "finance",
+    "author": "sofia-reyes",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/spacex-stock-decline-index-fund-buying-lockup.webp",
+    "imageAlt": "A rocket launch trail streaking through a dusk sky",
+    "featured": false,
+    "takeaways": [
+      "SpaceX stock has fallen more than 30% from its June IPO-week high, even as insiders gain more room to sell through staggered lockup releases.",
+      "The Nasdaq-100's quarterly rebalance this month could push SpaceX's index weight from about 1% to more than 3.5%, forcing passive funds to buy regardless of price.",
+      "Roughly 700 million additional shares unlock in September and another 650 million in October, with the full lockup not expiring until December."
+    ],
+    "body": [
+      {
+        "id": "the-slide",
+        "heading": "A record-breaking IPO, followed by a rough few months",
+        "paragraphs": [
+          "SpaceX went public on Nasdaq on June 12 in the largest initial public offering in Wall Street history, raising roughly $75 billion at $135 a share and pushing the company's valuation past $2 trillion on its first day of trading. Since then, the stock has cooled considerably, falling more than 30% from its June 16 all-time high of $225.64 as the initial enthusiasm around the listing has given way to a more grinding reassessment of the company's value.",
+          "The company's underlying business has kept growing even as the stock has slipped. Second-quarter revenue reached $7.8 billion, up 92% from a year earlier, though SpaceX still posted a net loss of $541 million for the period, driven in large part by heavy spending on its AI and satellite ambitions."
+        ]
+      },
+      {
+        "id": "the-lockup-schedule",
+        "heading": "A staggered lockup unlike most IPOs",
+        "paragraphs": [
+          "Unusually for a company of its size, SpaceX structured its post-IPO lockup as a series of staggered releases rather than the standard single 180-day cliff. The first tranche, worth roughly $99 billion at the time, became tradeable on August 6, when as many as 911.5 million shares were freed for sale, representing up to 20% of all insider-held stock. Despite the scale of that release, the anticipated wave of selling did not fully materialize, and shares recovered from an initial 3% dip on the opening day.",
+          "More unlocks are still ahead. More than 700 million shares, about 5.3% of the total outstanding, are scheduled to become available in September, with a further 650 million, or roughly 4.9%, unlocking in October. The full 180-day lockup block does not expire until early December, when up to 5.33 billion shares could theoretically hit the market, while a separate, extended lockup covering CEO Elon Musk and a small group of top executives runs through June 2027, keeping his roughly 6.4 billion shares off the market well beyond that."
+        ]
+      },
+      {
+        "id": "the-index-effect",
+        "heading": "Why falling shares are triggering forced buying",
+        "paragraphs": [
+          "The mechanics of index investing are producing a counterintuitive outcome. Major indexes such as the Nasdaq-100 weight companies by their float-adjusted market capitalization, meaning the more shares that become publicly tradeable, the larger a company's position within the index grows, independent of where the stock price is heading. As lockup releases expand SpaceX's available float, funds that track those indexes are contractually required to increase their holdings.",
+          "TD Securities projects that the Nasdaq-100's scheduled quarterly rebalance this month could lift SpaceX's weight in the index from about 1% to more than 3.5%, a shift that would force significant buying from funds tracking the Invesco QQQ Trust and similar vehicles. FTSE Russell's next scheduled reconstitution follows in December, which will determine how much more Russell 1000-tracking funds must hold as well."
+        ]
+      },
+      {
+        "id": "who-benefits",
+        "heading": "Two very different sets of shareholders",
+        "paragraphs": [
+          "The dynamic effectively splits SpaceX's shareholder base into two groups moving in opposite directions. Early investors and company insiders, who collectively held more than $600 billion worth of stock as of the end of the second quarter according to SEC filings, are gradually gaining more freedom to sell as each lockup tranche expires. Meanwhile, ordinary retirement savers whose money sits in broad index funds are being pushed into owning more of the stock automatically, purely as a function of how those funds are built.",
+          "SpaceX remains excluded from the S&P 500 for now, since that index enforces a mandatory one-year seasoning period before newly listed companies can be added, meaning inclusion there is unlikely before the middle of 2027 at the earliest. For investors trying to make sense of the stock's near-term direction, analysts say the more useful signal may not be quarterly earnings at all, but simply tracking which lockup tranche is unlocking next and which index is due to rebalance.",
+          "Options traders and short-term speculators are also watching September closely given the historical tendency of markets to soften during the month: the S&P 500 has averaged a negative return in September over the past several years, adding another layer of seasonal pressure on top of the lockup calendar. Even so, most analysts following the stock argue that the near-term volatility says relatively little about SpaceX's longer-term trajectory, since the forces driving the swings, index mechanics and staggered share releases, are structural features of how the IPO was designed rather than signals about the underlying business."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "malone-lam-guilty-plea-240-million-bitcoin-theft",
+    "title": "Man to Plead Guilty in $240 Million Bitcoin Theft",
+    "dek": "Malone Lam, accused of leading a scheme that stole over 4,100 Bitcoin through a fake Google and Gemini support call, faces a Washington plea hearing.",
+    "category": "finance",
+    "author": "hana-fujimoto",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/malone-lam-guilty-plea-240-million-bitcoin-theft.webp",
+    "imageAlt": "A physical bitcoin coin resting on a laptop keyboard",
+    "featured": false,
+    "takeaways": [
+      "Malone Lam, 22, is expected to plead guilty in Washington to a scheme that stole more than 4,100 Bitcoin, worth over $240 million, from a single victim.",
+      "Prosecutors say the group impersonated Google and Gemini support staff to trick the victim into handing over account access and security codes.",
+      "Lam would become the 11th of 18 charged defendants to plead guilty, after prosecutors detailed a spending spree on cars, jets and nightclubs."
+    ],
+    "body": [
+      {
+        "id": "the-plea",
+        "heading": "A guilty plea in one of the largest crypto thefts on record",
+        "paragraphs": [
+          "Malone Lam, a 22-year-old from Singapore, is scheduled to appear before a federal court in Washington, D.C., to enter a guilty plea in connection with the theft of more than $240 million in Bitcoin, one of the largest cryptocurrency thefts ever prosecuted in the United States. Prosecutors have identified Lam as the suspected ringleader of a sprawling scheme that targeted a single victim in the nation's capital.",
+          "If Lam enters the plea as expected, he will become the 11th of 18 charged defendants to admit guilt in the case. Federal sentencing guidelines could call for a prison term of at least 14 years, according to an estimate a prosecutor gave at an earlier court appearance."
+        ]
+      },
+      {
+        "id": "how-it-worked",
+        "heading": "A convincing impersonation scheme",
+        "paragraphs": [
+          "According to prosecutors, members of the group contacted the victim while posing as representatives of Google and the Gemini cryptocurrency exchange, warning him that his accounts had been compromised. The scammers allegedly convinced him to grant access to his Google Drive and to provide security codes, which allowed Lam and his associates to move more than 4,100 Bitcoin out of his holdings, then worth in excess of $240 million.",
+          "The stolen funds were reportedly routed through multiple exchange platforms, with money-laundering specialists brought in to convert portions of the proceeds into cash. A later superseding indictment expanded the scope of the allegations to more than $263 million in cryptocurrency thefts spanning multiple victims, not just the single case tied directly to Lam's plea hearing."
+        ]
+      },
+      {
+        "id": "the-spending",
+        "heading": "A month-long spending spree that left a paper trail",
+        "paragraphs": [
+          "Court filings paint a picture of extravagant spending in the weeks after the theft in August 2024. Prosecutors say Lam and his co-defendants bought fleets of sports cars, chartered private jets, hired personal security and rented luxury mansions in Miami and the Hamptons. The group is said to have spent roughly $4 million at Los Angeles nightclubs over about a month, with Lam alone allegedly spending more than $569,000 during a single night out.",
+          "That spending trail proved central to how investigators built the case. Lam, described in reporting as an eighth-grade dropout, was arrested at a Miami mansion on September 18, 2024, the same day a co-defendant, Jean Erick Serrano, was taken into custody at Los Angeles International Airport wearing a watch valued at roughly $500,000."
+        ]
+      },
+      {
+        "id": "the-wider-case",
+        "heading": "A network unraveling one plea at a time",
+        "paragraphs": [
+          "Other defendants in the case have already faced sentencing. Tucker Desmond, who pleaded guilty to destroying evidence tied to other plotters' crimes, was sentenced to probation after apologizing at his hearing in March for what he described as chasing an image of success rather than genuine achievement. A co-defendant named Ferro declined to speak at his own sentencing in May, where the judge rejected an attorney's characterization of the group as mischievous young men, noting that age only explains so much.",
+          "The case has drawn attention within the cryptocurrency industry as a stark illustration of how social-engineering attacks, rather than technical hacking, remain one of the most effective ways criminals target crypto holders. Investigators say the pattern, gaining trust by impersonating a trusted platform, then moving quickly to drain and launder funds, has become increasingly common as digital asset holdings have grown large enough to make individual victims worth targeting directly.",
+          "Prosecutors have framed the case as part of a broader crackdown on organized crypto-theft rings that emerged in the early 2020s, many of them built around young defendants who met online before coordinating real-world heists. With ten defendants having already pleaded guilty and Lam's plea expected to make eleven, legal observers say the remaining defendants in the eighteen-person case are likely to face mounting pressure to negotiate similar deals rather than risk trial, given how much of the underlying evidence, including the spending records, has already been laid out in court filings."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sec-sues-iss-proxy-adviser-subpoena",
+    "title": "SEC Sues Proxy Giant ISS Over Withheld Voting Data",
+    "dek": "The SEC is suing Institutional Shareholder Services to force it to hand over years of client voting records, as scrutiny of proxy advisers intensifies.",
+    "category": "finance",
+    "author": "daniel-cho",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/sec-sues-iss-proxy-adviser-subpoena.webp",
+    "imageAlt": "A courthouse building facade with tall stone columns",
+    "featured": false,
+    "takeaways": [
+      "The SEC filed suit on September 4 to force ISS, which advises institutional investors on more than 90% of proxy votes alongside rival Glass Lewis, to comply with a subpoena.",
+      "The agency wants four years of client-identifying voting records; ISS says handing them over raises First Amendment and retaliation concerns.",
+      "The case follows a December executive order directing the SEC to tighten oversight of proxy advisers, part of a broader push that also includes a Justice Department antitrust review."
+    ],
+    "body": [
+      {
+        "id": "the-lawsuit",
+        "heading": "A subpoena fight reaches federal court",
+        "paragraphs": [
+          "The Securities and Exchange Commission filed a subpoena-enforcement action on September 4 in the US District Court for the Eastern District of Pennsylvania, seeking to compel Institutional Shareholder Services, known as ISS, to comply with an outstanding request for records. The SEC, which regulates ISS as a registered investment adviser, says the firm has refused to turn over information central to how it makes its proxy voting recommendations.",
+          "According to the SEC's filing, its Division of Examinations opened a routine review of ISS in March, requesting data related to the firm's proxy recommendations and voting activity so it could evaluate ISS's compliance with federal securities law. When ISS did not fully comply, the agency escalated the matter, issuing a formal administrative subpoena on July 21 that the company has also only partly answered."
+        ]
+      },
+      {
+        "id": "whats-being-sought",
+        "heading": "Four years of client voting records at stake",
+        "paragraphs": [
+          "The records the SEC is demanding cover roughly four years of client-identifying proxy voting data, a level of detail ISS has resisted providing. The agency has been explicit that the case is narrowly about compelling compliance with an information request, not an allegation that ISS violated securities laws; the underlying examination has not reached any conclusion about wrongdoing.",
+          "ISS has pushed back on First Amendment grounds, arguing in correspondence with the agency that disclosing detailed information about its recommendations and its clients' voting activity could expose both the firm and its clients to retaliation. The company agreed to two of the SEC's three information requests but refused the third, which covers the voting database at the core of its business."
+        ]
+      },
+      {
+        "id": "the-political-backdrop",
+        "heading": "Part of a broader push against proxy advisers",
+        "paragraphs": [
+          "The lawsuit lands amid a wider Trump administration effort to rein in the influence of proxy advisory firms. A December executive order directed the SEC to review its rules on proxy advisers, enforce antifraud provisions more aggressively, and consider new disclosure requirements, specifically naming ISS and Glass Lewis as controlling more than 90% of the US proxy-advisory market.",
+          "The pressure campaign extends beyond the SEC. The Justice Department announced in August that it plans to rescind a 1987 approval letter that had shielded ISS's proxy recommendations from antitrust scrutiny, citing concerns about market concentration. Separately, the Department of Labor issued guidance in April establishing that proxy advisory firms can be treated as fiduciaries under federal pension law when they issue voting recommendations, a designation that could expose them to new legal liability."
+        ]
+      },
+      {
+        "id": "why-it-matters",
+        "heading": "Why the outcome could ripple through corporate boardrooms",
+        "paragraphs": [
+          "ISS and Glass Lewis wield outsized influence over how large institutional investors, including pension funds and mutual funds, vote on matters ranging from board elections to executive pay packages and shareholder proposals. Because so many investors follow their recommendations closely, a shift in how those firms operate, or in how transparent they are forced to be about their methodology, could meaningfully change the balance of power between company management and shareholders at annual meetings.",
+          "ISS is not new to regulatory scrutiny: the firm settled with the SEC in 2013, paying a $300,000 penalty over allegations it improperly shared confidential client information. Founded in 1985 and acquired by Deutsche Börse, the operator of the Frankfurt Stock Exchange, in 2020 for 1.5 billion euros, ISS's foreign ownership has itself become a point of criticism in the current political debate, with the White House highlighting it as a factor in its push for tighter oversight.",
+          "For now, the court's role is narrowly defined: a judge in Philadelphia will decide only whether the SEC's subpoena is properly authorized, relevant to a legitimate inquiry and not unreasonably burdensome, a standard that appeals courts in the region have historically described as very difficult for a company resisting a subpoena to overcome. Whatever the outcome, the case is widely seen as a preview of further fights to come, given that Glass Lewis, ISS's main rival, faces many of the same political and regulatory pressures and has yet to be tested in court."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "china-gold-buying-streak-22-months",
+    "title": "China Extends Gold-Buying Streak to 22 Months Running",
+    "dek": "China's central bank kept adding to its gold reserves in August, its 22nd straight monthly increase, as bullion holds near record highs on rate jitters.",
+    "category": "finance",
+    "author": "priya-menon",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/china-gold-buying-streak-22-months.webp",
+    "imageAlt": "Stacks of gold bars arranged closely together",
+    "featured": false,
+    "takeaways": [
+      "China's central bank extended its gold-buying streak to a 22nd consecutive month in August, lifting official holdings to 76.73 million fine troy ounces.",
+      "Gold has pulled back to around $4,400 an ounce after a volatile year, still up more than 21% from a year earlier despite recent losses.",
+      "The steady official buying comes as bond yields worldwide climb and central banks diversify away from a heavier reliance on the dollar."
+    ],
+    "body": [
+      {
+        "id": "the-streak",
+        "heading": "Beijing keeps buying, month after month",
+        "paragraphs": [
+          "China's central bank added to its official gold reserves for a 22nd consecutive month in August, according to data released this week, extending one of the longest sustained buying streaks in the People's Bank of China's history. The purchases lifted the bank's holdings to 76.73 million fine troy ounces, continuing a steady accumulation that has persisted through sharp swings in gold's price over the past year.",
+          "The consistency of the buying stands out against a backdrop of significant volatility in the broader gold market. Prices touched a record above $5,000 an ounce earlier in the year before falling by as much as 18% from that peak, then staged a sharp rebound, before pulling back again more recently toward the $4,400 level amid renewed expectations of a Federal Reserve rate hike."
+        ]
+      },
+      {
+        "id": "why-central-banks-buy",
+        "heading": "A broader trend among global central banks",
+        "paragraphs": [
+          "China is far from alone in steadily building gold reserves. Central banks around the world have been adding to their gold holdings for several years as part of a broader effort to diversify foreign exchange reserves away from a heavy reliance on the US dollar, a trend that has accelerated amid periodic bouts of dollar volatility and rising geopolitical tension. Gold offers central banks an asset with no counterparty risk, meaning it cannot be frozen or sanctioned the way foreign currency reserves held in another country's banking system can be.",
+          "That dynamic has taken on additional significance this year given the scale of currency intervention some governments have had to undertake. Japan, for instance, has spent a record amount defending the yen in recent months, drawing down its own foreign reserves in the process, a reminder of how exposed reserve portfolios can be when they are concentrated in a single currency or asset class."
+        ]
+      },
+      {
+        "id": "current-price-action",
+        "heading": "Gold's rocky path through 2026",
+        "paragraphs": [
+          "Gold's price action this year illustrates just how divided investor sentiment toward the metal has become. After setting fresh records early in 2026, bullion fell to a session low near $4,376 an ounce earlier this month following a stronger-than-expected US jobs report, before recovering part of that loss. As of this week, gold was trading around $4,400 an ounce, essentially flat over the past month but still up roughly 21% compared with the same time last year.",
+          "Short-term traders have been reacting sharply to shifting expectations for Fed policy, since gold pays no yield and becomes relatively less attractive when interest rates rise. Central bank buyers like China's, by contrast, appear to be operating on a much longer time horizon, treating monthly price swings as largely irrelevant to a strategy focused on gradually building a larger, more diversified reserve base over years rather than weeks."
+        ]
+      },
+      {
+        "id": "what-to-watch",
+        "heading": "What could shift the picture next",
+        "paragraphs": [
+          "Analysts will be watching upcoming US inflation data and the Federal Reserve's mid-September meeting closely, since another signal of a possible rate hike could pressure gold prices further in the near term, even as central bank demand provides a longer-term floor. Any escalation in the ongoing Middle East conflict between the US and Iran could also cut the other way, reviving safe-haven buying that has periodically supported gold even during periods of rising rates.",
+          "For now, China's steady accumulation offers a useful contrast to the volatility playing out in daily trading. While retail and institutional investors have been whipsawed by shifting rate expectations, official buyers appear to be treating gold less as a short-term trade and more as a structural hedge against currency and geopolitical risk, a distinction that market watchers say helps explain why the metal has managed to hold well above where it traded just a few years ago, even after its recent pullback.",
+          "Some analysts also point out that China's buying pattern rarely moves in lockstep with headline price swings, since the People's Bank of China tends to disclose its reserve changes with a lag and in relatively modest monthly increments rather than large, market-moving purchases. That approach appears deliberate: a central bank absorbing gold gradually over nearly two years avoids drawing the kind of attention that a sudden, large purchase might invite, while still steadily building a reserve cushion that reduces its dependence on any single foreign currency over the medium to long term."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "spider-man-brand-new-day-record-summer-box-office",
+    "title": "'Spider-Man' Powers Summer to All-Time Box Office High",
+    "dek": "Sony's 'Spider-Man: Brand New Day' held No. 1 for a sixth straight weekend, helping push US summer ticket sales to a record near $4.76 billion.",
+    "category": "culture",
+    "author": "marcus-obi",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/spider-man-brand-new-day-record-summer-box-office.webp",
+    "imageAlt": "Rows of empty red cinema seats facing a large screen",
+    "featured": true,
+    "takeaways": [
+      "'Spider-Man: Brand New Day' spent a sixth consecutive weekend at No. 1, crossing $900 million domestically faster than any film in history.",
+      "US summer ticket sales reached roughly $4.76 billion, edging past the previous record of $4.755 billion set in 2013.",
+      "The record came despite several high-profile flops, including Disney's live-action 'Moana' and Warner Bros.' 'Supergirl.'"
+    ],
+    "body": [
+      {
+        "id": "the-record",
+        "heading": "A record summer, decided on the final weekend",
+        "paragraphs": [
+          "Hollywood's summer box office finished in a photo finish, with domestic ticket sales landing at roughly $4.76 billion between May and early September, according to data from Rentrak. That figure edges out the prior all-time high of $4.755 billion set back in 2013, making 2026 the biggest summer moviegoing season on record, unadjusted for inflation.",
+          "The season came down to the wire over Labor Day weekend, when studios and box office analysts were still uncertain whether the final tally would clear the 2013 mark. Rentrak had flagged a chance the summer could finish anywhere from $8 million below the record to several million above it, depending on how the four-day holiday weekend played out."
+        ]
+      },
+      {
+        "id": "spider-man-leads",
+        "heading": "'Spider-Man' just keeps climbing",
+        "paragraphs": [
+          "Sony and Marvel's 'Spider-Man: Brand New Day' did most of the heavy lifting. The film held the No. 1 spot at the domestic box office for a sixth consecutive weekend, a rare feat that reflects both its staying power and a relatively thin slate of new competition. It earned about $18 million over the traditional three-day weekend and was projected to bring in roughly $23.3 million through the Labor Day holiday.",
+          "The film's records go well beyond weekly rankings. It became only the second movie in history, after 2015's 'Star Wars: The Force Awakens,' to cross $900 million domestically, and it did so in just 36 days, compared with 50 days for 'Force Awakens.' It also set the record for the biggest single Tuesday in domestic box office history, taking in $42 million, and became the highest-grossing film of the year worldwide with more than $1.1 billion, edging past Disney and Pixar's 'Toy Story 5.'"
+        ]
+      },
+      {
+        "id": "the-broader-slate",
+        "heading": "A season built on hits, not just one franchise",
+        "paragraphs": [
+          "'Spider-Man: Brand New Day' wasn't carrying the summer alone. Other studio releases including 'The Odyssey,' 'Toy Story 5' and 'The Devil Wears Prada 2' turned in strong performances, while indie sleeper hits like 'Obsession' and 'Backrooms' added unexpected upside outside the usual blockbuster mix. August alone brought in an all-time record $1.276 billion domestically, unseating a mark set back in August 2016.",
+          "Not every big-budget bet paid off. Disney's live-action 'Moana,' Warner Bros. and DC's 'Supergirl,' and Amazon MGM's 'Masters of the Universe' all underperformed expectations, underscoring how uneven the summer was beneath its record-setting headline number. Universal ultimately led all studios for the season with $1.23 billion in domestic revenue."
+        ]
+      },
+      {
+        "id": "what-it-signals",
+        "heading": "A sign of a genuine industry rebound, or a one-off?",
+        "paragraphs": [
+          "For an industry still recovering from pandemic-era disruptions and a prolonged 2023 labor strike, the summer's numbers offer some of the clearest evidence yet that audiences are willing to return to theaters in force when the right films are on offer. Industry analysts have pointed to the sheer number of billion-dollar global hits this year as a particularly encouraging sign, since no year since 2019 had produced more than three films crossing that threshold before 2026.",
+          "Whether that momentum carries into the fall remains to be seen. Hollywood has several more high-profile releases queued up in the coming months, and executives are hoping the year's total domestic haul can approach $10 billion, a figure that regularly came within reach before the pandemic but has proven elusive since. For now, exhibitors are treating the record summer as validation that a well-marketed blockbuster can still reliably fill theater seats."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jane-fonda-paramount-warner-bros-merger-venice",
+    "title": "Jane Fonda Slams Paramount-Warner Merger at Venice Gala",
+    "dek": "At the DVF Awards in Venice, Jane Fonda called the pending Paramount-Warner Bros. Discovery merger 'terrible' for consumers, workers and creatives.",
+    "category": "culture",
+    "author": "priya-menon",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/jane-fonda-paramount-warner-bros-merger-venice.webp",
+    "imageAlt": "A grand red-carpet event with elegant lighting and a formal gathering",
+    "featured": false,
+    "takeaways": [
+      "Jane Fonda, honored at the 17th DVF Awards in Venice, renewed her opposition to Paramount Skydance's roughly $111 billion bid for Warner Bros. Discovery.",
+      "She argued the deal would raise consumer prices, cost thousands of jobs and weaken bargaining power for creatives and unions.",
+      "Fonda separately defended actor Mark Ruffalo, alleging a modern industry blacklist after he was accused of antisemitism for criticizing the merger."
+    ],
+    "body": [
+      {
+        "id": "the-remarks",
+        "heading": "A pointed message at a glamorous gala",
+        "paragraphs": [
+          "Jane Fonda used her platform at the DVF Awards charity gala in Venice on Thursday to renew her public opposition to the proposed acquisition of Warner Bros. Discovery by Paramount Skydance, a deal reportedly valued at around $111 billion. Speaking to a small group of journalists before being honored at the ceremony, the 88-year-old actress and longtime activist laid out a detailed case against the merger.",
+          "Fonda argued that the heavy debt load carried by the Ellison family, which controls Paramount Skydance, made the deal financially fragile even as it moved forward. She said the merger would raise prices for consumers, cost thousands of industry jobs, and leave creatives with fewer studios to pitch their work to, weakening bargaining power for both individual talent and entertainment unions."
+        ]
+      },
+      {
+        "id": "personal-vs-professional",
+        "heading": "Opposing the deal while praising its architect",
+        "paragraphs": [
+          "Notably, Fonda's criticism of the merger came paired with warm personal comments about Paramount Skydance CEO David Ellison, whom she said she likes very much. She noted that Ellison's Skydance banner had financed her Netflix series 'Grace and Frankie,' which ended its run in 2022, and made clear that her fondness for him personally did not soften her professional concerns about the deal.",
+          "Fonda also invoked her former partner, media mogul Ted Turner, arguing he would be heartbroken to see Paramount potentially gain control of CNN, a network he once built and was famously reluctant to part with. She framed the merger not as a routine business transaction but as a structural threat to the broader media landscape."
+        ]
+      },
+      {
+        "id": "the-ruffalo-allegations",
+        "heading": "Defending Mark Ruffalo and alleging a blacklist",
+        "paragraphs": [
+          "Fonda's remarks extended beyond the merger's financial terms into allegations of retaliation against critics of the deal. She said actor Mark Ruffalo, who had previously spoken out against the merger and drawn connections between Larry Ellison's Oracle and the Israeli military, was subsequently accused by Larry Ellison of antisemitism, a charge Fonda characterized as a deliberate tactic to silence dissent.",
+          "Asked directly whether a modern-day industry blacklist was operating against critics of the deal, Fonda answered without hesitation that it was, describing it as a tactic being actively used against those who speak up. She said she remained undeterred by political pressure more broadly, including from President Trump, stating flatly that he could do nothing to intimidate her."
+        ]
+      },
+      {
+        "id": "the-broader-gala",
+        "heading": "A star-studded evening with a wider message",
+        "paragraphs": [
+          "The 17th annual DVF Awards, organized by fashion designer Diane von Furstenberg to honor extraordinary women, also recognized Barbados Prime Minister Mia Amor Mottley, Pulitzer Prize-winning photojournalist Lynsey Addario, Food4Education founder Wawira Njiru, and French feminist figure Gisèle Pelicot. The event drew a crowd that included Barry Diller, Fareed Zakaria and California's Jennifer Siebel Newsom, among other prominent guests.",
+          "Fonda's comments landed at a moment when the Paramount-Warner Bros. Discovery merger already faces resistance on multiple fronts, adding another high-profile voice to a debate that has increasingly pitted industry veterans against consolidating media conglomerates. With David Ellison reportedly working on written commitments meant to ease concerns about the deal's impact, Fonda's remarks suggest that skepticism from Hollywood's old guard is unlikely to fade quietly."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "the-pitt-leads-2026-emmy-nominations-ceremony",
+    "title": "'The Pitt' Leads Emmy Field Ahead of Sunday's Ceremony",
+    "dek": "HBO Max's medical drama 'The Pitt' topped this year's Emmy nominations with 25, as the 78th Primetime Emmys near their September 14 broadcast.",
+    "category": "culture",
+    "author": "hana-fujimoto",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/the-pitt-leads-2026-emmy-nominations-ceremony.webp",
+    "imageAlt": "A television studio soundstage with bright overhead lighting rigs",
+    "featured": false,
+    "takeaways": [
+      "'The Pitt' leads all shows with 25 Emmy nominations, followed by 'Hacks' with 24, a record for a single comedy season.",
+      "Mariska Hargitay hosts the 78th Primetime Emmy Awards on September 14, shifted to a Monday broadcast because of an NFL game on NBC.",
+      "The Creative Arts Emmys were handed out September 5 and 6, setting the stage for the main ceremony at the Peacock Theater in Los Angeles."
+    ],
+    "body": [
+      {
+        "id": "the-leaders",
+        "heading": "A medical drama tops the field",
+        "paragraphs": [
+          "HBO Max's emergency-room drama 'The Pitt' enters this year's Primetime Emmy Awards as the most-nominated show, having picked up 25 nominations across acting, writing and technical categories. The show, which won Outstanding Drama Series at last year's ceremony, built its haul in part on a deep bench of nominated cast members playing doctors and staff at its fictional Pittsburgh hospital.",
+          "Close behind is 'Hacks,' also from HBO Max, which earned 24 nominations for its final season, a record for a single season of a comedy series. The strong showing from both shows helped HBO Max lead all platforms with 122 total nominations, ahead of rivals including Apple TV, which had a breakout year of its own with new series 'Pluribus,' 'Margo's Got Money Troubles' and 'Widow's Bay' all earning multiple nods."
+        ]
+      },
+      {
+        "id": "the-ceremony",
+        "heading": "A Monday night ceremony, for the first time in years",
+        "paragraphs": [
+          "The 78th Primetime Emmy Awards will air live on NBC on Monday, September 14, at 8 p.m. ET from the Peacock Theater in Los Angeles, shifting from the traditional Sunday slot because of a scheduled NFL game on the network. 'Law & Order: Special Victims Unit' star Mariska Hargitay, who begins her 28th season on that long-running series this fall, will host the broadcast.",
+          "Ahead of the main event, the Creative Arts Emmys, which recognize technical and craft achievements, were handed out over two nights on September 5 and 6 at the Television Academy. Those ceremonies typically award categories such as production design, cinematography and stunt coordination, and their results often foreshadow which shows are best positioned heading into the main telecast."
+        ]
+      },
+      {
+        "id": "the-competition",
+        "heading": "A crowded drama and comedy race",
+        "paragraphs": [
+          "This year's Outstanding Drama Series category includes 'The Diplomat,' 'The Gilded Age,' 'A Knight of the Seven Kingdoms,' 'Paradise,' 'The Pitt,' 'Pluribus,' 'Slow Horses' and 'Your Friends & Neighbours,' a lineup that mixes established prestige dramas with several first-time nominees. On the comedy side, 'Abbott Elementary,' 'The Bear,' 'Hacks,' 'Margo's Got Money Troubles,' 'Nobody Wants This,' 'Only Murders in the Building,' 'Shrinking' and 'Widow's Bay' round out the field.",
+          "The acting races feature a similarly wide mix of veterans and newcomers. Supporting categories on the drama side include multiple nominees from 'The Pitt' itself, reflecting the show's ensemble strength, while lead acting categories include Yahya Abdul-Mateen II for 'Wonder Man,' Steve Carell for 'Rooster' and Quinta Brunson for 'Abbott Elementary,' among others."
+        ]
+      },
+      {
+        "id": "what-to-watch",
+        "heading": "What's at stake heading into Monday",
+        "paragraphs": [
+          "With 'The Pitt' returning as the defending Outstanding Drama Series winner and now the most-nominated show overall, the ceremony will test whether the show can convert its nomination lead into a repeat win against a deep field of competitors, several of them first-time Emmy contenders. 'Hacks,' meanwhile, closes out its run with its strongest nomination total yet, giving the comedy a chance to cement its legacy in its final eligible season.",
+          "Beyond the marquee races, this year's Emmys will also be watched for how streaming platforms continue to reshape the television landscape, with Apple TV's strong showing suggesting the field of contenders for top honors is growing more crowded and less predictable than in recent years. Industry watchers say the results could offer an early signal of which platforms and genres are best positioned heading into next year's awards cycle."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nasa-roman-space-telescope-launch",
+    "title": "NASA's Roman Telescope Launches on Dark Universe Hunt",
+    "dek": "The Nancy Grace Roman Space Telescope launched aboard a Falcon Heavy rocket, beginning a three-month journey to study dark matter, dark energy and exoplanets.",
+    "category": "science",
+    "author": "sofia-reyes",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/nasa-roman-space-telescope-launch.webp",
+    "imageAlt": "A rocket launch lighting up the night sky with a bright exhaust trail",
+    "featured": true,
+    "takeaways": [
+      "NASA's Nancy Grace Roman Space Telescope launched August 30 aboard a SpaceX Falcon Heavy, beginning a three-month, million-mile journey to its L2 orbit.",
+      "Roman shares Hubble's mirror size but surveys 100 times more sky per snapshot, and is designed to work roughly a thousand times faster.",
+      "The telescope will send back 1.4 terabytes of data daily, the highest rate of any NASA astrophysics mission, with first images expected by early 2027."
+    ],
+    "body": [
+      {
+        "id": "the-launch",
+        "heading": "A tour-bus-sized telescope leaves Earth",
+        "paragraphs": [
+          "NASA's Nancy Grace Roman Space Telescope lifted off at 7:26 a.m. EDT on August 30 aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at Kennedy Space Center in Florida. The roughly 18,000-pound observatory, about the size of a tour bus, separated from the rocket's upper stage 31 minutes after launch and began the first steps of a three-month, million-mile journey to its final orbital position.",
+          "Roman is headed to the second Sun-Earth Lagrange point, known as L2, located about a million miles from Earth in the direction opposite the sun. Unlike Hubble, which orbits Earth, Roman will orbit the sun directly, following the same general strategy NASA used for the James Webb Space Telescope."
+        ]
+      },
+      {
+        "id": "what-makes-it-different",
+        "heading": "Same mirror as Hubble, a much wider view",
+        "paragraphs": [
+          "Roman's primary mirror is the same size as Hubble's, but the telescope is built to capture roughly 100 times more sky in a single snapshot. That leap comes from a more curved primary mirror, a secondary mirror positioned closer to the primary, and a considerably larger main camera, a combination that lets Roman survey vast swaths of the cosmos far more quickly than its predecessor.",
+          "NASA says the telescope is designed to survey the universe about a thousand times faster than Hubble. That capability is expected to support the discovery of far more supernovas, which help scientists understand the universe's expansion rate and composition, along with a broad new census of planets orbiting other stars."
+        ]
+      },
+      {
+        "id": "the-science-goals",
+        "heading": "Chasing dark matter, dark energy and distant worlds",
+        "paragraphs": [
+          "The mission's central goals are to investigate dark energy and dark matter, two of the most persistent mysteries in modern physics, while also conducting a statistical census of planetary systems beyond our own. Roman is expected to enable a wide range of additional astrophysics research well beyond those core objectives, given the sheer volume of sky it will be able to observe.",
+          "The telescope will generate about 1.4 terabytes of data every day, the highest data rate of any NASA astrophysics mission to date. Given that volume, NASA plans to lean on machine learning, artificial intelligence and citizen scientists to help sift through the incoming data and flag potentially significant findings for astronomers to study in more detail."
+        ]
+      },
+      {
+        "id": "whats-next",
+        "heading": "Months of setup before the first images",
+        "paragraphs": [
+          "Roman now enters a commissioning period that NASA expects to last several weeks, during which engineers will deploy its solar panels, perform a mid-course correction burn, and run its instruments through a series of calibrations and tests to confirm everything is functioning as designed. NASA anticipates releasing Roman's first science images by early 2027.",
+          "The mission is managed by NASA's Goddard Space Flight Center, with participation from the Jet Propulsion Laboratory, Caltech/IPAC and the Space Telescope Science Institute, alongside a broader science team drawn from research institutions around the country. The telescope is named after Nancy Grace Roman, NASA's first chief of astronomy, who helped lay the groundwork for the agency's space telescope program decades before Roman itself took shape."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "saturn-south-pole-decagon-hubble-discovery",
+    "title": "Hubble Finds a Mysterious 10-Sided Wave on Saturn",
+    "dek": "Astronomers confirmed a giant decagon-shaped atmospheric wave circling Saturn's south pole, a striking counterpart to its famous northern hexagon.",
+    "category": "science",
+    "author": "daniel-cho",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/saturn-south-pole-decagon-hubble-discovery.webp",
+    "imageAlt": "The planet Saturn and its rings set against the darkness of space",
+    "featured": false,
+    "takeaways": [
+      "An international team confirmed a 10-sided atmospheric wave, or decagon, circling Saturn's south pole, published September 2 in Science Advances.",
+      "Unlike the planet's famous northern hexagon, which has held steady for more than 40 years, the decagon appears to be a newer feature that is still strengthening.",
+      "Researchers traced faint hints of the pattern back to 2023 Hubble images, but believe it likely formed sometime between 2017 and 2023, when the pole was hidden from view."
+    ],
+    "body": [
+      {
+        "id": "the-discovery",
+        "heading": "A southern counterpart to Saturn's famous hexagon",
+        "paragraphs": [
+          "An international team of astronomers led by Agustín Sánchez-Lavega of the University of the Basque Country has confirmed the existence of a giant, 10-sided atmospheric wave encircling Saturn's south pole, a striking new companion to the planet's long-known northern hexagon. The findings were published September 2 in the journal Science Advances, based on observations gathered through NASA's Hubble Space Telescope.",
+          "Saturn's north pole has been ringed by a stable, six-sided cloud pattern since it was first spotted in Voyager spacecraft data in 1987, and the northern hexagon has remained a consistent feature every time scientists have observed it in the decades since. The newly confirmed southern decagon appears to be something different: a feature that is actively strengthening rather than sitting in a long-term stable state."
+        ]
+      },
+      {
+        "id": "how-it-was-found",
+        "heading": "Piecing together years of scattered observations",
+        "paragraphs": [
+          "Researchers traced faint early hints of the decagon back to Hubble images from 2023, gathered as part of the telescope's Outer Planet Atmospheres Legacy program, which has photographed the outer planets annually for more than a decade. Ground-based amateur and professional astronomers noted an undulating band around the pole in 2024, and the pattern sharpened into a clearly defined 10-sided shape in Hubble images taken in 2025.",
+          "Pinning down exactly when the decagon first formed has proven difficult. Saturn's axial tilt means the planet experiences seasons much like Earth does, and its south pole was turned away from Earth's view between 2012 and 2023, along with the fact that no orbiting spacecraft has studied the planet up close since NASA's Cassini mission ended in 2017. As a result, scientists believe the feature likely emerged sometime in that six-year window when direct observation wasn't possible."
+        ]
+      },
+      {
+        "id": "what-it-is",
+        "heading": "A wave embedded deep in the atmosphere",
+        "paragraphs": [
+          "Scientists describe the decagon as a large atmospheric wave embedded within one of Saturn's powerful jet streams, likely formed where fast-moving gas farther from the pole interacts with slower-moving gas closer to it. Observations show the wave extends through multiple layers of Saturn's atmosphere, indicating it is a substantial three-dimensional weather system rather than a shallow, cloud-level pattern.",
+          "Amy Simon, a co-author of the study and principal investigator of the OPAL program at NASA's Goddard Space Flight Center, said the team had never seen anything quite like this feature in Saturn's southern hemisphere, noting the contrast with the northern hexagon's four-decade stability. The scale of the discovery is difficult to overstate: the decagon wraps around the entire polar region of a planet more than nine times wider than Earth."
+        ]
+      },
+      {
+        "id": "whats-next",
+        "heading": "Watching a weather system evolve in real time",
+        "paragraphs": [
+          "The research team presented its findings at the Europlanet Science Congress on September 7, putting the discovery in front of the broader planetary science community for further scrutiny. Hubble is scheduled to observe Saturn again later this month, which should help researchers determine whether the decagon's sharpening trend has continued or begun to level off.",
+          "Scientists also plan to enlist the James Webb Space Telescope, which can observe Saturn's atmosphere in infrared wavelengths beyond Hubble's optical reach, to probe the decagon's vertical structure, temperature profile and composition. Computer modeling is planned as well, to test candidate explanations for how the wave formed, including the possibility that a nearby storm perturbed the jet stream into its current geometric shape. Researchers say the coming months of observation should help clarify whether the decagon is a fleeting feature or one capable of persisting for decades, the way its northern counterpart has."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "nasa-spacex-crew-13-delay-dragon-oxidizer-leak",
+    "title": "NASA Delays Crew-13 Launch After Dragon Fuel Leak",
+    "dek": "NASA and SpaceX postponed the Crew-13 mission to the ISS after finding an oxidizer leak in Dragon's propulsion system, pushing liftoff into late September.",
+    "category": "science",
+    "author": "hana-fujimoto",
+    "published": "2026-09-08",
+    "updated": "2026-09-08",
+    "readingTime": "4 min read",
+    "image": "../images/nasa-spacex-crew-13-delay-dragon-oxidizer-leak.webp",
+    "imageAlt": "A crewed space capsule mounted atop a rocket on the launch pad",
+    "featured": false,
+    "takeaways": [
+      "NASA and SpaceX postponed Crew-13's September 12 launch to the ISS after finding an oxidizer leak in the Dragon capsule's propulsion system.",
+      "The four-person crew includes NASA astronauts Jessica Watkins and Luke Delaney, Canadian astronaut Joshua Kutryk and Roscosmos's Sergey Teteryatnikov.",
+      "NASA Administrator Jared Isaacman said repairs could take two to four weeks, pushing the earliest realistic launch window to late September or early October."
+    ],
+    "body": [
+      {
+        "id": "the-delay",
+        "heading": "A leak found during routine prelaunch checks",
+        "paragraphs": [
+          "NASA and SpaceX announced on August 29 that they were postponing the launch of the Crew-13 mission to the International Space Station after engineers discovered an oxidizer leak in the propulsion system of the mission's Dragon spacecraft. The issue turned up during standard prelaunch processing at Cape Canaveral Space Force Station in Florida, ahead of what had been a planned September 12 liftoff.",
+          "The Canadian Space Agency, whose astronaut Joshua Kutryk is part of the four-person crew, was among the first to confirm the delay publicly, posting that an oxidizer leak had been discovered on Dragon's propulsion system. Joint NASA and SpaceX teams began conducting additional testing and reviewing data to determine what repairs would be needed before the capsule could fly."
+        ]
+      },
+      {
+        "id": "the-crew-and-mission",
+        "heading": "A four-person, multinational crew waits it out",
+        "paragraphs": [
+          "Crew-13 is set to carry NASA astronauts Jessica Watkins, serving as commander, and Luke Delaney as pilot, alongside Canadian Space Agency astronaut Joshua Kutryk and Roscosmos cosmonaut Sergey Teteryatnikov as mission specialists. Once aboard the station, the crew will join Expedition 75, continuing the steady rotation of long-duration missions that has kept the ISS staffed for more than two decades.",
+          "The mission marks the 13th operational crew rotation under NASA's Commercial Crew Program and the 21st crewed orbital flight for a Dragon spacecraft overall, underscoring how routine, if not risk-free, these launches have become. The flight is also notable for a change in ground operations, with SpaceX replacing its traditional armored emergency-egress vehicles at the launch pad with customized Tesla Cybertrucks."
+        ]
+      },
+      {
+        "id": "the-technical-issue",
+        "heading": "What exactly went wrong",
+        "paragraphs": [
+          "The leak involves nitrogen tetroxide, the oxidizer half of the hypergolic propellant that powers Dragon's 18 Draco thrusters, each capable of producing 400 newtons of thrust. Those thrusters rely on nitrogen tetroxide paired with monomethylhydrazine as fuel; the two chemicals ignite spontaneously on contact, a property that lets Dragon maneuver in orbit and dock with the space station without a separate ignition system.",
+          "NASA has not disclosed precisely where in the propulsion system the leak occurred or named the specific Dragon capsule involved, and the agency has not announced a fleetwide inspection of other Dragon spacecraft as a result. Isolating the source of a leak in a hypergolic propulsion system typically requires careful diagnostic work, since the chemicals involved are highly reactive and toxic, demanding methodical testing rather than a quick fix."
+        ]
+      },
+      {
+        "id": "the-timeline",
+        "heading": "A two- to four-week wait, at minimum",
+        "paragraphs": [
+          "Speaking a day after the delay was announced, NASA Administrator Jared Isaacman said the repair work could take two to four weeks, a timeline that pushes the earliest realistic launch window toward late September or early October. Isaacman made the comments while attending the launch of NASA's Nancy Grace Roman Space Telescope, which lifted off successfully the following day despite the unrelated Dragon issue grounding Crew-13.",
+          "In the meantime, the four astronauts, who were already partway through the standard two-week quarantine protocol ahead of a crewed launch, will need to adjust their preparations around the new timeline. NASA says it will announce a firm new launch date once the leak has been fully diagnosed, repaired if necessary, and retested under realistic prelaunch conditions."
+        ]
+      }
+    ]
+  }
+    
   ]
 }
